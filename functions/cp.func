@@ -1,0 +1,68 @@
+#!/bin/sh
+##BEGIN_INTRODUCTION##	This function does not got an introduction yet.
+##END_INTRODUCTION##
+
+#####################  Build in Things   ######################
+. $Function_Top/Include/Enviroment_Config.inc
+##################### other functions below ######################
+temp_file=$Function_Data_Path/.ClipBoard.tmp
+
+Copy()
+{
+if [ -n "$1" ];then
+    echo "copy $Call_Path/$1">$temp_file
+else
+    echo "">$temp_file
+fi
+}
+
+Cut()
+{
+if [ -n "$1" ];then
+    echo "cut $Call_Path/$1">$temp_file
+else
+    echo "">$temp_file
+fi
+}
+
+Paste()
+{
+    echo $*
+    while [ -n "$1" ];do
+        if [ "$1" = "copy" ];then
+            cp -r $2 $Here_Path
+            shift 2;
+        else 
+            if [ "$1" = "cut" ];then
+                mv -r $2 $Here_Path;
+                shift 2;
+            else 
+                echo no valid commands;
+                shift 1;
+            fi
+        fi    
+    done
+}
+
+######################  main below  ##############################
+if [ -n "$1" ];then
+	while [ -n "$1" ]; do
+	case $1 in
+##BEGIN_HELP##
+		-h)     shift 1;echo_help;exit 1;;                   #Show usages 
+		-i)     shift 1;echo_introduction;exit 1;;           #Show introduction 
+		-edit)  shift 1;gedit $Here_Path/$File_Name;exit 1;; #Edit this function
+		-copy)     shift 1;Copy $*;exit 1;;                  #Copy
+		-cut)     shift 1;Cut $*;exit 1;;                    #Cut
+		-paste) shift 1;Paste $(cat $temp_file);exit 1;;                    #Paste 
+		# -*)     echo "error: no such option $1. -h for help";exit 1;; 
+		*)      $*;exit 1;;                                  #Call function here
+##END_HELP##
+	esac
+	done
+else
+	echo_help
+fi
+#echo ---------------------End Of $Function_Name-----------------------
+
+

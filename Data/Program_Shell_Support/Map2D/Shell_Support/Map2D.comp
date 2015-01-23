@@ -1,0 +1,131 @@
+aa Simulation=Map2D
+aa Simulation=Map2D
+aa Simulation=Map2D Map2D.Scale=0.01
+aa Simulation=Map2D Map2D.Scale=0.03
+aa Simulation=Map2D Map2D.Scale=0.04
+aa Simulation=Map2D Map2D.Scale=0.04
+aa Simulation=Map2D Map2D.Scale=0.02
+aa Simulation=Map2D Map2D.Scale=0.02 Map2D.UseCloud=1 Map2D.ShowMap=1 Map2D.ShowWeightMap=1 Map2D.InsertPoints=1
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main DrawMa1
+Act=Map2D_Main DrawMap=1
+Act=Map2D_Main DrawMap=1
+Act=SFM_Test fn_in=../img_sfm_1s
+Act=Map2D_Main
+Act=SFM_Test
+Act=SFM_Test
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=SFM_Test
+Act=SFM_Test fn_in=../img_sfm_1s
+Act=SFM_Test fn_in=../img_sfm_1s
+Act=SFM_Test fn_in=../img_sfm_1s
+Act=SFM_Test fn_in=../img_sfm_1s
+Act=SFM_Test fn_in=../img_sfm_1s
+Act=SFM_Test fn_in=../img_sfm_1s
+Act=SFM_Test fn_in=../img_sfm_1s
+Act=SFM_Test fn_in=../img_sfm_1s
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=SFM_Test
+Act=SFM_Test fn_in=../img_sfm_1s
+Act=SFM_Test fn_in=../img_sfm_1s
+Act=SFM_Test fn_in=../img_sfm_1s
+Act=SFM_Test fn_in=../img_sfm_1s
+Act=Map2D_Main
+Act=Map2D_Main DrawCloud=1
+Act=G2O_Test
+Act=G2O_Test
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=G2O_Test
+Act=G2O_Test Solver=Dense
+Act=GPS_Fitting
+Act=GPS_Fitting UseOdoment=1
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=Map2D_Main
+Act=SFM_Test
+Act=SFM_Test
+Act=SFM_Test
+Act=SFM_Test
+Act=GPS_Fitting
+Act=GPS_Fitting UseOdoment=1
+Act=Map2D_Main
+Act=SFM_Test
+Act=SFM_Test
+Act=SFM_Test ImgSkip=15
+Act=SFM_Test ImgSkip=30
+Act=SFM_Test ImgSkip=30 FilterHistogram=1
+Act=SFM_Test ImgSkip=10 FilterHistogram=1
+Act=SFM_Test
+Act=SFM_Test ImgSkip=30
+Act=SFM_Test ImgSkip=20
+Act=SFM_Test ImgSkip=30
+Act=Undistortion_Test
+Act=Undistortion_Test
+Act=SFM_Test
+Act=SFM_Test
+Act=SFM_Test
+Act=SFM_Test
+Act=SFM_Test
+Act=SFM_Test

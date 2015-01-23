@@ -1,0 +1,662 @@
+------------------2015年 01月 02日 星期五 11:09:32 CST------------------
+MapRTK Act=Map2D_Test
+------------------2015年 01月 02日 星期五 11:11:44 CST------------------
+MapRTK Act=Map_Test
+------------------2015年 01月 02日 星期五 11:13:28 CST------------------
+MapRTK Act=GPS_Reader_Test
+------------------2015年 01月 02日 星期五 19:26:12 CST------------------
+MapRTK Act=GPS_Reader_Test
+------------------2015年 01月 03日 星期六 10:38:30 CST------------------
+MapRTK Act=GPS_Reader_Test
+------------------2015年 01月 03日 星期六 10:39:32 CST------------------
+MapRTK Act=GPS_Reader_Test
+------------------2015年 01月 03日 星期六 10:43:49 CST------------------
+MapRTK Act=GPS_Reader_Test
+------------------2015年 01月 03日 星期六 10:59:04 CST------------------
+MapRTK Act=GPS_Reader_Test
+------------------2015年 01月 03日 星期六 11:00:27 CST------------------
+MapRTK Act=GPS_Reader_Test
+------------------2015年 01月 03日 星期六 11:01:09 CST------------------
+MapRTK Act=GPS_Reader_Test
+------------------2015年 01月 03日 星期六 11:15:06 CST------------------
+MapRTK Act=GPS_Reader_Test
+------------------2015年 01月 03日 星期六 11:16:04 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.ReadType=1
+------------------2015年 01月 03日 星期六 11:17:21 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.ReadType=1
+------------------2015年 01月 03日 星期六 11:17:27 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.ReadType=2
+------------------2015年 01月 03日 星期六 11:18:31 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.ReadType=2
+------------------2015年 01月 03日 星期六 11:20:05 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.ReadType=2
+------------------2015年 01月 03日 星期六 11:22:27 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.ReadType=2
+------------------2015年 01月 03日 星期六 11:22:51 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.ReadType=2
+------------------2015年 01月 03日 星期六 11:24:25 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.ReadType=2
+------------------2015年 01月 03日 星期六 11:24:36 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.ReadType=2
+------------------2015年 01月 03日 星期六 11:25:38 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.ReadType=2
+------------------2015年 01月 03日 星期六 11:31:43 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.ReadType=2
+------------------2015年 01月 03日 星期六 11:33:22 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.ReadType=2
+------------------2015年 01月 03日 星期六 11:33:50 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.ReadType=2
+------------------2015年 01月 03日 星期六 11:34:42 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.ReadType=2
+------------------2015年 01月 03日 星期六 11:46:48 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.ReadType=2
+------------------2015年 01月 03日 星期六 11:48:50 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.ReadType=2
+------------------2015年 01月 03日 星期六 11:49:26 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.ReadType=1
+------------------2015年 01月 03日 星期六 11:50:24 CST------------------
+MapRTK Act=Map2D_Test
+------------------2015年 01月 03日 星期六 11:59:58 CST------------------
+MapRTK Act=Map2D_Test
+------------------2015年 01月 03日 星期六 12:01:13 CST------------------
+MapRTK Act=Map2D_Test
+------------------2015年 01月 03日 星期六 12:02:32 CST------------------
+MapRTK Act=Map2D_Test
+------------------2015年 01月 03日 星期六 12:05:20 CST------------------
+MapRTK Act=Map2D_Test
+------------------2015年 01月 03日 星期六 12:07:17 CST------------------
+MapRTK Act=Map2D_Test
+------------------2015年 01月 03日 星期六 12:39:55 CST------------------
+MapRTK Act=Map2D_Test
+------------------2015年 01月 03日 星期六 13:21:42 CST------------------
+MapRTK Act=GPS_Reader_Test
+------------------2015年 01月 03日 星期六 13:23:55 CST------------------
+MapRTK Act=GPS_Reader_Test
+------------------2015年 01月 03日 星期六 13:24:25 CST------------------
+MapRTK Act=GPS_Reader_Test
+------------------2015年 01月 03日 星期六 13:25:24 CST------------------
+MapRTK Act=GPS_Reader_Test
+------------------2015年 01月 03日 星期六 13:29:02 CST------------------
+MapRTK Act=GPS_Reader_Test
+------------------2015年 01月 03日 星期六 13:29:40 CST------------------
+MapRTK Act=GPS_Reader_Test
+------------------2015年 01月 03日 星期六 13:30:10 CST------------------
+MapRTK Act=GPS_Reader_Test
+------------------2015年 01月 03日 星期六 13:30:15 CST------------------
+MapRTK Act=GPS_Reader_Test
+------------------2015年 01月 03日 星期六 13:41:45 CST------------------
+MapRTK VideoPrepare.ImgSkip=3
+------------------2015年 01月 03日 星期六 13:43:47 CST------------------
+MapRTK Act=Map2D_Test
+------------------2015年 01月 03日 星期六 13:45:03 CST------------------
+MapRTK CalibrateVideo=/data/zhaoyong/Linux/Program/Data/uav_image/videos/GOPRO_2014.11/flight_06_02.MP4
+------------------2015年 01月 03日 星期六 13:49:21 CST------------------
+MapRTK CalibrateVideo=/data/zhaoyong/Linux/Program/Data/uav_image/videos/GOPRO_2014.11/flight_06_02.MP4
+------------------2015年 01月 03日 星期六 13:50:59 CST------------------
+MapRTK CalibrateVideo=/data/zhaoyong/Linux/Program/Data/uav_image/videos/GOPRO_2014.11/flight_06_02.MP4 VideoPrepare.ImgSkip=10
+------------------2015年 01月 03日 星期六 13:53:35 CST------------------
+MapRTK CalibrateVideo=/data/zhaoyong/Linux/Program/Data/uav_image/videos/GOPRO_2014.11/flight_06_01.MP4 VideoPrepare.ImgSkip=10
+------------------2015年 01月 03日 星期六 14:00:13 CST------------------
+MapRTK VideoPrepare.ImgSkip=0
+------------------2015年 01月 03日 星期六 14:01:26 CST------------------
+MapRTK CalibrateVideo=/data/zhaoyong/Linux/Program/Data/uav_image/videos/GOPRO_2014.11/flight_06_01.MP4 VideoPrepare.ImgSkip=10
+------------------2015年 01月 03日 星期六 14:01:36 CST------------------
+MapRTK CalibrateVideo=/data/zhaoyong/Linux/Program/Data/uav_image/videos/GOPRO_2014.11/flight_06_01.MP4 VideoPrepare.ImgSkip=10
+------------------2015年 01月 03日 星期六 14:02:57 CST------------------
+MapRTK Act=GPS_Reader_Test
+------------------2015年 01月 03日 星期六 14:04:29 CST------------------
+MapRTK VideoPrepare.ImgSkip=0
+------------------2015年 01月 03日 星期六 14:05:16 CST------------------
+MapRTK Act=Map_Test
+------------------2015年 01月 03日 星期六 14:06:19 CST------------------
+MapRTK Act=GPS_Reader_Test
+------------------2015年 01月 03日 星期六 14:07:46 CST------------------
+MapRTK Act=GPS_Reader_Test
+------------------2015年 01月 03日 星期六 14:08:06 CST------------------
+MapRTK Act=GPS_Reader_Test
+------------------2015年 01月 03日 星期六 14:11:19 CST------------------
+MapRTK Act=GPS_Reader_Test
+------------------2015年 01月 03日 星期六 14:11:55 CST------------------
+MapRTK Act=GPS_Reader_Test
+------------------2015年 01月 03日 星期六 14:14:59 CST------------------
+MapRTK Act=GPS_Reader_Test
+------------------2015年 01月 03日 星期六 14:15:25 CST------------------
+MapRTK Act=GPS_Reader_Test
+------------------2015年 01月 03日 星期六 14:15:55 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.ReadType=2
+------------------2015年 01月 03日 星期六 14:16:56 CST------------------
+MapRTK Act=GPS_Reader_Test
+------------------2015年 01月 03日 星期六 14:18:03 CST------------------
+MapRTK Act=GPS_Reader_Test
+------------------2015年 01月 03日 星期六 14:18:57 CST------------------
+MapRTK Act=GPS_Reader_Test
+------------------2015年 01月 03日 星期六 14:20:16 CST------------------
+MapRTK Act=GPS_Reader_Test
+------------------2015年 01月 03日 星期六 14:21:16 CST------------------
+MapRTK Act=GPS_Reader_Test
+------------------2015年 01月 03日 星期六 14:26:29 CST------------------
+MapRTK Act=GPS_Reader_Test
+------------------2015年 01月 03日 星期六 14:27:02 CST------------------
+MapRTK Act=GPS_Reader_Test
+------------------2015年 01月 03日 星期六 14:28:18 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.ReadType=1
+------------------2015年 01月 03日 星期六 14:29:30 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.ReadType=1
+------------------2015年 01月 03日 星期六 16:02:21 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.ReadType=1
+------------------2015年 01月 03日 星期六 16:02:37 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.ReadType=1
+------------------2015年 01月 03日 星期六 16:02:47 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.ReadType=0
+------------------2015年 01月 03日 星期六 16:09:05 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.ReadType=0
+------------------2015年 01月 03日 星期六 16:09:34 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.ReadType=0
+------------------2015年 01月 03日 星期六 16:10:37 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+------------------2015年 01月 03日 星期六 16:11:15 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+------------------2015年 01月 03日 星期六 16:11:28 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+------------------2015年 01月 03日 星期六 16:11:51 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+------------------2015年 01月 03日 星期六 16:12:16 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+------------------2015年 01月 03日 星期六 16:12:30 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+------------------2015年 01月 03日 星期六 16:12:54 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=1
+------------------2015年 01月 03日 星期六 16:13:17 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+------------------2015年 01月 03日 星期六 16:14:11 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+------------------2015年 01月 03日 星期六 16:14:42 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+------------------2015年 01月 03日 星期六 16:16:01 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=1
+------------------2015年 01月 03日 星期六 16:17:29 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=1
+------------------2015年 01月 03日 星期六 16:21:35 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.ReadType=0
+------------------2015年 01月 03日 星期六 16:21:54 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=1
+------------------2015年 01月 03日 星期六 16:22:14 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+------------------2015年 01月 03日 星期六 16:22:45 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+------------------2015年 01月 03日 星期六 16:23:41 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+------------------2015年 01月 03日 星期六 16:24:49 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+------------------2015年 01月 03日 星期六 16:25:49 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=1
+------------------2015年 01月 03日 星期六 16:26:06 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=1
+------------------2015年 01月 03日 星期六 16:26:59 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=1
+------------------2015年 01月 03日 星期六 16:27:50 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=1
+------------------2015年 01月 03日 星期六 16:28:22 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=1
+------------------2015年 01月 03日 星期六 16:29:17 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=1
+------------------2015年 01月 03日 星期六 16:29:40 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=1
+------------------2015年 01月 03日 星期六 16:30:12 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+------------------2015年 01月 03日 星期六 16:30:45 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=1
+------------------2015年 01月 03日 星期六 16:31:05 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+------------------2015年 01月 03日 星期六 16:32:45 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+------------------2015年 01月 03日 星期六 16:35:09 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+------------------2015年 01月 03日 星期六 16:36:10 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+------------------2015年 01月 03日 星期六 16:37:23 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+------------------2015年 01月 03日 星期六 16:38:25 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+------------------2015年 01月 03日 星期六 16:40:27 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=1
+------------------2015年 01月 03日 星期六 16:41:05 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+------------------2015年 01月 03日 星期六 16:43:22 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+------------------2015年 01月 03日 星期六 16:50:03 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+------------------2015年 01月 03日 星期六 16:50:19 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+------------------2015年 01月 03日 星期六 16:51:27 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+------------------2015年 01月 03日 星期六 16:51:54 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+------------------2015年 01月 03日 星期六 16:54:56 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.ReadType=0
+------------------2015年 01月 03日 星期六 16:56:52 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.ReadType=0
+------------------2015年 01月 03日 星期六 16:57:58 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.ReadType=0
+------------------2015年 01月 03日 星期六 16:58:05 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.ReadType=0
+------------------2015年 01月 03日 星期六 17:03:57 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.ReadType=0
+------------------2015年 01月 03日 星期六 17:06:18 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.ReadType=0
+------------------2015年 01月 03日 星期六 17:06:34 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+------------------2015年 01月 03日 星期六 17:08:11 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.ReadType=0
+------------------2015年 01月 03日 星期六 17:08:29 CST------------------
+MapRTK Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+------------------2015年 01月 03日 星期六 17:10:37 CST------------------
+MapRTK FeatureDescribtor=ORB
+------------------2015年 01月 03日 星期六 17:11:15 CST------------------
+MapRTK FeatureDescribtor=ORB CalibrateVideo=/data/zhaoyong/Linux/Program/Data/uav_image/videos/GOPRO_2014.11/flight_06_02.MP4
+------------------2015年 01月 03日 星期六 17:13:46 CST------------------
+MapRTK FeatureDescribtor=ORB CalibrateVideo=/data/zhaoyong/Linux/Program/Data/uav_image/videos/GOPRO_2014.11/flight_06_02.MP4 VideoPrepare.ImgSkip=5
+------------------2015年 01月 03日 星期六 17:18:56 CST------------------
+MapRTK FeatureDescribtor=ORB CalibrateVideo=/data/zhaoyong/Linux/Program/Data/uav_image/videos/GOPRO_2014.11/flight_06_02.MP4 VideoPrepare.ImgSkip=5
+------------------2015年 01月 03日 星期六 17:19:03 CST------------------
+MapRTK FeatureDescribtor=ORB CalibrateVideo=/data/zhaoyong/Linux/Program/Data/uav_image/videos/GOPRO_2014.11/flight_06_02.MP4 VideoPrepare.ImgSkip=50
+------------------2015年 01月 03日 星期六 17:27:29 CST------------------
+MapRTK FeatureDescribtor=ORB CalibrateVideo=/data/zhaoyong/Linux/Program/Data/uav_image/videos/GOPRO_2014.11/flight_06_02.MP4 VideoPrepare.ImgSkip=50
+------------------2015年 01月 03日 星期六 17:27:41 CST------------------
+MapRTK FeatureDescribtor=ORB
+------------------2015年 01月 03日 星期六 22:07:21 CST------------------
+MapRTK Act=GPS_Reader_Test
+------------------2015年 01月 03日 星期六 22:08:02 CST------------------
+MapRTK Act=Map2D_Test
+------------------2015年 01月 03日 星期六 22:08:40 CST------------------
+MapRTK Act=Map2D_Test MapData.Alpha=0
+------------------2015年 01月 03日 星期六 22:11:19 CST------------------
+MapRTK Act=Map2D_Test MapData.Alpha=0
+------------------2015年 01月 03日 星期六 22:13:28 CST------------------
+MapRTK Act=Map2D_Test MapData.Alpha=0
+------------------2015年 01月 03日 星期六 22:13:54 CST------------------
+MapRTK Act=Map2D_Test MapData.Alpha=0
+------------------2015年 01月 03日 星期六 22:17:43 CST------------------
+MapRTK Act=Map2D_Test MapData.Alpha=0
+------------------2015年 01月 03日 星期六 22:21:45 CST------------------
+MapRTK Act=Map2D_Test MapData.Alpha=0
+------------------2015年 01月 03日 星期六 22:22:21 CST------------------
+MapRTK Act=Map2D_Test MapData.Alpha=0
+------------------2015年 01月 03日 星期六 22:24:28 CST------------------
+MapRTK Act=Map2D_Test MapData.Alpha=0
+------------------2015年 01月 03日 星期六 22:25:33 CST------------------
+MapRTK Act=Map2D_Test MapData.Alpha=0
+------------------2015年 01月 04日 星期日 11:39:31 CST------------------
+MapRTK Act=GPS_Reader_Test
+------------------2015年 01月 04日 星期日 11:41:55 CST------------------
+MapRTK VideoPrepare.ImgSkip=3
+------------------2015年 01月 04日 星期日 11:42:18 CST------------------
+MapRTK VideoPrepare.ImgSkip=3 FeatureDescribtor=SURF
+------------------2015年 01月 04日 星期日 13:41:14 CST------------------
+MapRTK VideoPrepare.ImgSkip=3
+------------------2015年 01月 04日 星期日 13:42:11 CST------------------
+MapRTK VideoPrepare.ImgSkip=3
+------------------2015年 01月 04日 星期日 13:42:31 CST------------------
+MapRTK VideoPrepare.ImgSkip=3
+------------------2015年 01月 04日 星期日 13:42:47 CST------------------
+MapRTK VideoPrepare.ImgSkip=3
+------------------2015年 01月 04日 星期日 13:43:24 CST------------------
+MapRTK VideoPrepare.ImgSkip=3
+------------------2015年 01月 04日 星期日 13:43:32 CST------------------
+MapRTK VideoPrepare.ImgSkip=3
+------------------2015年 01月 04日 星期日 13:43:52 CST------------------
+MapRTK VideoPrepare.ImgSkip=3
+------------------2015年 01月 04日 星期日 13:44:18 CST------------------
+MapRTK VideoPrepare.ImgSkip=3
+------------------2015年 01月 04日 星期日 13:44:29 CST------------------
+MapRTK VideoPrepare.ImgSkip=3
+------------------2015年 01月 04日 星期日 14:13:53 CST------------------
+MapRTK FeatureDescribtor=SURF SURF.hessianThreshold=1000
+------------------2015年 01月 04日 星期日 15:44:07 CST------------------
+MapRTK Act=Map2D_Test
+------------------2015年 01月 04日 星期日 15:44:54 CST------------------
+MapRTK Act=Map2D_Test
+------------------2015年 01月 04日 星期日 15:49:05 CST------------------
+MapRTK Act=Map2D_Test MapData.Alpha=0
+------------------2015年 01月 07日 星期三 09:32:23 CST------------------
+MapRTK FeatureDescribtor=ORB
+------------------2015年 01月 07日 星期三 09:37:02 CST------------------
+MapRTK FeatureDescribtor=ORB
+------------------2015年 01月 07日 星期三 09:37:13 CST------------------
+MapRTK FeatureDescribtor=ORB
+------------------2015年 01月 07日 星期三 09:38:23 CST------------------
+MapRTK FeatureDescribtor=ORB
+------------------2015年 01月 07日 星期三 09:39:30 CST------------------
+MapRTK FeatureDescribtor=ORB
+------------------2015年 01月 07日 星期三 09:41:22 CST------------------
+MapRTK FeatureDescribtor=ORB
+------------------2015年 01月 07日 星期三 09:43:44 CST------------------
+MapRTK FeatureDescribtor=ORB
+------------------2015年 01月 07日 星期三 09:44:45 CST------------------
+MapRTK FeatureDescribtor=ORB
+------------------2015年 01月 07日 星期三 09:45:37 CST------------------
+MapRTK FeatureDescribtor=ORB
+------------------2015年 01月 07日 星期三 09:45:44 CST------------------
+MapRTK FeatureDescribtor=ORB
+------------------2015年 01月 07日 星期三 09:48:46 CST------------------
+MapRTK FeatureDescribtor=ORB
+------------------2015年 01月 07日 星期三 09:49:47 CST------------------
+MapRTK FeatureDescribtor=ORB
+------------------2015年 01月 07日 星期三 09:52:05 CST------------------
+MapRTK FeatureDescribtor=ORB
+------------------2015年 01月 07日 星期三 13:11:44 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 07日 星期三 13:12:50 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 07日 星期三 13:12:56 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 07日 星期三 13:14:03 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 07日 星期三 13:14:25 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 07日 星期三 13:15:39 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 07日 星期三 13:16:20 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 07日 星期三 13:16:57 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 07日 星期三 13:17:33 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 07日 星期三 13:18:42 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 07日 星期三 13:20:10 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 07日 星期三 13:21:38 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 07日 星期三 13:22:56 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 07日 星期三 13:24:07 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 07日 星期三 13:26:45 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 07日 星期三 13:28:26 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 07日 星期三 13:29:19 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 07日 星期三 13:29:38 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 07日 星期三 13:30:14 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 07日 星期三 13:30:37 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 07日 星期三 13:31:24 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 07日 星期三 13:32:37 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 07日 星期三 13:34:53 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 07日 星期三 13:35:28 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 07日 星期三 13:36:01 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 07日 星期三 13:36:36 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 07日 星期三 13:37:44 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 07日 星期三 13:39:53 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 07日 星期三 13:41:07 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 07日 星期三 13:42:39 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 07日 星期三 13:44:41 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 07日 星期三 13:46:12 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 07日 星期三 13:47:23 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 07日 星期三 13:50:50 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 07日 星期三 13:51:48 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 07日 星期三 13:52:21 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 07日 星期三 13:53:40 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 07日 星期三 13:54:40 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 07日 星期三 13:54:55 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 08日 星期四 14:53:21 CST------------------
+MapRTK Act=SE3_Test
+------------------2015年 01月 08日 星期四 14:54:45 CST------------------
+MapRTK Act=SE3_Test
+------------------2015年 01月 08日 星期四 14:55:16 CST------------------
+MapRTK Act=SE3_Test
+------------------2015年 01月 08日 星期四 14:56:37 CST------------------
+MapRTK Act=SE3_Test
+------------------2015年 01月 08日 星期四 14:57:33 CST------------------
+MapRTK Act=SE3_Test
+------------------2015年 01月 08日 星期四 14:58:14 CST------------------
+MapRTK Act=SE3_Test
+------------------2015年 01月 08日 星期四 14:59:07 CST------------------
+MapRTK Act=SE3_Test
+------------------2015年 01月 08日 星期四 16:02:05 CST------------------
+MapRTK Act=BundleSimulate
+------------------2015年 01月 08日 星期四 16:08:53 CST------------------
+MapRTK FeatureDescribtor=SURF
+------------------2015年 01月 08日 星期四 16:09:46 CST------------------
+MapRTK FeatureDescribtor=SURF
+------------------2015年 01月 12日 星期一 23:22:17 CST------------------
+MapRTK ORB.FastThreshold=15 TrackPause=0
+------------------2015年 01月 15日 星期四 22:15:04 CST------------------
+MapRTK make
+------------------2015年 01月 15日 星期四 22:15:22 CST------------------
+MapRTK make
+------------------2015年 01月 15日 星期四 22:16:15 CST------------------
+MapRTK make
+------------------2015年 01月 15日 星期四 22:50:53 CST------------------
+MapRTK TrackPause=0
+------------------2015年 01月 15日 星期四 22:56:02 CST------------------
+MapRTK TrackPause=0
+------------------2015年 01月 15日 星期四 22:56:46 CST------------------
+MapRTK TrackPause=0
+------------------2015年 01月 15日 星期四 22:58:51 CST------------------
+MapRTK TrackPause=0
+------------------2015年 01月 15日 星期四 23:00:26 CST------------------
+MapRTK TrackPause=0
+------------------2015年 01月 15日 星期四 23:03:28 CST------------------
+MapRTK TrackPause=0
+------------------2015年 01月 15日 星期四 23:09:04 CST------------------
+MapRTK TrackPause=0
+------------------2015年 01月 15日 星期四 23:11:43 CST------------------
+MapRTK TrackPause=0
+------------------2015年 01月 15日 星期四 23:15:53 CST------------------
+MapRTK TrackPause=0
+------------------2015年 01月 15日 星期四 23:15:59 CST------------------
+MapRTK TrackPause=0
+------------------2015年 01月 15日 星期四 23:18:07 CST------------------
+MapRTK TrackPause=0
+------------------2015年 01月 15日 星期四 23:18:24 CST------------------
+MapRTK TrackPause=0
+------------------2015年 01月 15日 星期四 23:21:08 CST------------------
+MapRTK TrackPause=0
+------------------2015年 01月 15日 星期四 23:23:52 CST------------------
+MapRTK TrackPause=0 VideoPrepare.ImgSkip=20
+------------------2015年 01月 15日 星期四 23:25:55 CST------------------
+MapRTK TrackPause=0 VideoPrepare.ImgSkip=20
+------------------2015年 01月 15日 星期四 23:30:56 CST------------------
+MapRTK TrackPause=0 VideoPrepare.ImgSkip=20
+------------------2015年 01月 15日 星期四 23:33:43 CST------------------
+MapRTK TrackPause=0 VideoPrepare.ImgSkip=20
+------------------2015年 01月 15日 星期四 23:37:02 CST------------------
+MapRTK TrackPause=0 VideoPrepare.ImgSkip=20
+------------------2015年 01月 15日 星期四 23:41:27 CST------------------
+MapRTK TrackPause=0 VideoPrepare.ImgSkip=20
+------------------2015年 01月 15日 星期四 23:44:07 CST------------------
+MapRTK TrackPause=0 VideoPrepare.ImgSkip=20 InitialPause=0
+------------------2015年 01月 15日 星期四 23:48:51 CST------------------
+MapRTK TrackPause=0 VideoPrepare.ImgSkip=20 InitialPause=0
+------------------2015年 01月 15日 星期四 23:50:59 CST------------------
+MapRTK TrackPause=0 VideoPrepare.ImgSkip=20 InitialPause=0
+------------------2015年 01月 16日 星期五 00:06:04 CST------------------
+MapRTK TrackPause=0 VideoPrepare.ImgSkip=20 InitialPause=0
+------------------2015年 01月 16日 星期五 00:07:24 CST------------------
+MapRTK TrackPause=0 VideoPrepare.ImgSkip=20 InitialPause=0
+------------------2015年 01月 16日 星期五 00:13:48 CST------------------
+MapRTK TrackPause=0 VideoPrepare.ImgSkip=20 InitialPause=0 FeatureDescribtor=ORB ORB.FastThreshold=17
+------------------2015年 01月 16日 星期五 00:22:55 CST------------------
+MapRTK TrackPause=0 VideoPrepare.ImgSkip=20 InitialPause=0 FeatureDescribtor=ORB ORB.FastThreshold=17
+------------------2015年 01月 16日 星期五 00:29:51 CST------------------
+MapRTK TrackPause=0 VideoPrepare.ImgSkip=20 InitialPause=0 FeatureDescribtor=ORB ORB.FastThreshold=17
+------------------2015年 01月 16日 星期五 00:30:13 CST------------------
+MapRTK TrackPause=0 VideoPrepare.ImgSkip=20 InitialPause=0 FeatureDescribtor=ORB ORB.FastThreshold=17
+------------------2015年 01月 17日 星期六 11:17:39 CST------------------
+MapRTK TrackPause=0
+------------------2015年 01月 17日 星期六 11:18:23 CST------------------
+MapRTK TrackPause=0
+------------------2015年 01月 17日 星期六 11:20:06 CST------------------
+MapRTK TrackPause=0 FeatureDescribtor=ORB ORB.FastThreshold=18
+------------------2015年 01月 17日 星期六 11:23:46 CST------------------
+MapRTK TrackPause=0 FeatureDescribtor=ORB ORB.FastThreshold=18
+------------------2015年 01月 17日 星期六 11:24:51 CST------------------
+MapRTK TrackPause=0 FeatureDescribtor=ORB ORB.FastThreshold=18
+------------------2015年 01月 17日 星期六 11:29:59 CST------------------
+MapRTK TrackPause=0 FeatureDescribtor=ORB ORB.FastThreshold=18
+------------------2015年 01月 17日 星期六 11:30:34 CST------------------
+MapRTK TrackPause=0 FeatureDescribtor=ORB ORB.FastThreshold=18
+------------------2015年 01月 17日 星期六 11:33:51 CST------------------
+MapRTK TrackPause=0 FeatureDescribtor=ORB ORB.FastThreshold=18
+------------------2015年 01月 17日 星期六 11:38:53 CST------------------
+MapRTK TrackPause=0 FeatureDescribtor=ORB ORB.FastThreshold=18
+------------------2015年 01月 17日 星期六 11:40:47 CST------------------
+MapRTK TrackPause=0 FeatureDescribtor=ORB ORB.FastThreshold=18
+------------------2015年 01月 17日 星期六 11:41:50 CST------------------
+MapRTK TrackPause=0 FeatureDescribtor=ORB ORB.FastThreshold=18
+------------------2015年 01月 17日 星期六 11:43:11 CST------------------
+MapRTK TrackPause=0 FeatureDescribtor=ORB ORB.FastThreshold=18
+------------------2015年 01月 17日 星期六 11:46:13 CST------------------
+MapRTK TrackPause=0
+------------------2015年 01月 17日 星期六 11:46:43 CST------------------
+MapRTK TrackPause=0 VideoPrepare.ImgSkip=20
+------------------2015年 01月 17日 星期六 11:49:01 CST------------------
+MapRTK TrackPause=0 VideoPrepare.ImgSkip=20
+------------------2015年 01月 17日 星期六 11:49:40 CST------------------
+MapRTK TrackPause=0 VideoPrepare.ImgSkip=15
+------------------2015年 01月 17日 星期六 11:50:24 CST------------------
+MapRTK TrackPause=0 VideoPrepare.ImgSkip=10
+------------------2015年 01月 17日 星期六 11:53:22 CST------------------
+MapRTK TrackPause=0 VideoPrepare.ImgSkip=10
+------------------2015年 01月 17日 星期六 11:57:35 CST------------------
+MapRTK TrackPause=0 VideoPrepare.ImgSkip=10
+------------------2015年 01月 17日 星期六 23:51:17 CST------------------
+MapRTK TrackPause=0 VideoPrepare.ImgSkip=20
+------------------2015年 01月 17日 星期六 23:52:34 CST------------------
+MapRTK FeatureDescribtor=ORB ORB.FastThreshold=18 TrackPause=0
+------------------2015年 01月 17日 星期六 23:53:34 CST------------------
+MapRTK FeatureDescribtor=ORB ORB.FastThreshold=22 TrackPause=0
+------------------2015年 01月 18日 星期日 00:03:45 CST------------------
+MapRTK FeatureDescribtor=ORB ORB.FastThreshold=26 TrackPause=0
+------------------2015年 01月 18日 星期日 00:32:41 CST------------------
+MapRTK FeatureDescribtor=ORB ORB.FastThreshold=26 TrackPause=0
+------------------2015年 01月 18日 星期日 00:34:35 CST------------------
+MapRTK FeatureDescribtor=ORB ORB.FastThreshold=26 TrackPause=0
+------------------2015年 01月 18日 星期日 00:38:12 CST------------------
+MapRTK FeatureDescribtor=ORB ORB.FastThreshold=26 TrackPause=0
+------------------2015年 01月 18日 星期日 00:38:55 CST------------------
+MapRTK FeatureDescribtor=ORB ORB.FastThreshold=26 TrackPause=0
+------------------2015年 01月 18日 星期日 00:39:03 CST------------------
+MapRTK FeatureDescribtor=ORB ORB.FastThreshold=26 TrackPause=0
+------------------2015年 01月 18日 星期日 00:39:42 CST------------------
+MapRTK FeatureDescribtor=ORB ORB.FastThreshold=26 TrackPause=0
+------------------2015年 01月 18日 星期日 00:39:43 CST------------------
+MapRTK FeatureDescribtor=ORB ORB.FastThreshold=26 TrackPause=0
+------------------2015年 01月 18日 星期日 00:41:26 CST------------------
+MapRTK FeatureDescribtor=ORB ORB.FastThreshold=26 TrackPause=0
+------------------2015年 01月 18日 星期日 00:44:56 CST------------------
+MapRTK FeatureDescribtor=ORB ORB.FastThreshold=26 TrackPause=0
+------------------2015年 01月 18日 星期日 00:46:49 CST------------------
+MapRTK FeatureDescribtor=ORB ORB.FastThreshold=26 TrackPause=0
+------------------2015年 01月 18日 星期日 00:50:57 CST------------------
+MapRTK FeatureDescribtor=ORB ORB.FastThreshold=26 TrackPause=0
+------------------2015年 01月 18日 星期日 00:56:00 CST------------------
+MapRTK FeatureDescribtor=ORB ORB.FastThreshold=26 TrackPause=0
+------------------2015年 01月 18日 星期日 00:59:08 CST------------------
+MapRTK FeatureDescribtor=ORB ORB.FastThreshold=26 TrackPause=0
+------------------2015年 01月 18日 星期日 01:00:08 CST------------------
+MapRTK FeatureDescribtor=ORB ORB.FastThreshold=26 TrackPause=0
+------------------2015年 01月 18日 星期日 01:02:47 CST------------------
+MapRTK FeatureDescribtor=ORB ORB.FastThreshold=26 TrackPause=0
+------------------2015年 01月 18日 星期日 22:50:39 CST------------------
+MapRTK UseMutiBundle=0
+------------------2015年 01月 18日 星期日 22:58:13 CST------------------
+MapRTK UseMutiBundle=0
+------------------2015年 01月 18日 星期日 23:02:39 CST------------------
+MapRTK UseMutiBundle=0
+------------------2015年 01月 18日 星期日 23:06:45 CST------------------
+MapRTK UseMutiBundle=0
+------------------2015年 01月 18日 星期日 23:09:20 CST------------------
+MapRTK UseMutiBundle=0
+------------------2015年 01月 18日 星期日 23:11:12 CST------------------
+MapRTK UseMutiBundle=0
+------------------2015年 01月 18日 星期日 23:18:07 CST------------------
+MapRTK UseMutiBundle=0
+------------------2015年 01月 18日 星期日 23:19:34 CST------------------
+MapRTK UseMutiBundle=0
+------------------2015年 01月 18日 星期日 23:22:22 CST------------------
+MapRTK UseMutiBundle=0
+------------------2015年 01月 18日 星期日 23:26:24 CST------------------
+MapRTK UseMutiBundle=0
+------------------2015年 01月 18日 星期日 23:49:39 CST------------------
+MapRTK UseMutiBundle=0
+------------------2015年 01月 19日 星期一 23:05:41 CST------------------
+MapRTK UseMutiBundle=1
+------------------2015年 01月 19日 星期一 23:06:22 CST------------------
+MapRTK UseMutiBundle=0
+------------------2015年 01月 19日 星期一 23:30:28 CST------------------
+MapRTK UseMutiBundle=1
+------------------2015年 01月 19日 星期一 23:43:00 CST------------------
+MapRTK UseMutiBundle=0
+------------------2015年 01月 19日 星期一 23:51:41 CST------------------
+MapRTK FeatureDescribtor=SURF UseMutiBundle=0
+------------------2015年 01月 19日 星期一 23:53:30 CST------------------
+MapRTK FeatureDescribtor=SURF UseMutiBundle=0
+------------------2015年 01月 20日 星期二 13:13:05 CST------------------
+MapRTK UseMutiBundle=0
+------------------2015年 01月 20日 星期二 13:14:36 CST------------------
+MapRTK UseMutiBundle=0
+------------------2015年 01月 20日 星期二 13:35:51 CST------------------
+MapRTK UseMutiBundle=0
+------------------2015年 01月 20日 星期二 13:36:55 CST------------------
+MapRTK UseMutiBundle=0
+------------------2015年 01月 20日 星期二 13:38:09 CST------------------
+MapRTK UseMutiBundle=0
+------------------2015年 01月 20日 星期二 13:41:44 CST------------------
+MapRTK UseMutiBundle=0
+------------------2015年 01月 21日 星期三 12:53:33 CST------------------
+MapRTK Act=Map2D_Test
+------------------2015年 01月 21日 星期三 12:54:06 CST------------------
+MapRTK Act=Map2D_Test MapData.Alpha=0
+------------------2015年 01月 21日 星期三 13:10:44 CST------------------
+MapRTK Act=Map2D_Test
+------------------2015年 01月 21日 星期三 13:17:57 CST------------------
+MapRTK BundleKFs=100
+------------------2015年 01月 21日 星期三 13:19:23 CST------------------
+MapRTK BundleKFs=100
+------------------2015年 01月 21日 星期三 13:20:05 CST------------------
+MapRTK BundleKFs=100
+------------------2015年 01月 21日 星期三 13:20:54 CST------------------
+MapRTK BundleKFs=100
+------------------2015年 01月 21日 星期三 13:22:55 CST------------------
+MapRTK BundleKFs=30
+------------------2015年 01月 21日 星期三 13:28:31 CST------------------
+MapRTK BundleKFs=30
+------------------2015年 01月 21日 星期三 13:32:41 CST------------------
+MapRTK Act=Map2D_Test
+------------------2015年 01月 21日 星期三 14:47:53 CST------------------
+MapRTK Map2D_Test
+------------------2015年 01月 21日 星期三 14:48:07 CST------------------
+MapRTK Act=Map2D_Test
+------------------2015年 01月 21日 星期三 14:48:24 CST------------------
+MapRTK Act=Map2D_Test
+------------------2015年 01月 21日 星期三 14:49:01 CST------------------
+MapRTK Act=Map2D_Test MapData.Alpha=0
+------------------2015年 01月 21日 星期三 14:51:29 CST------------------
+MapRTK BundleKFs=30
+------------------2015年 01月 21日 星期三 14:51:48 CST------------------
+MapRTK BundleKFs=100

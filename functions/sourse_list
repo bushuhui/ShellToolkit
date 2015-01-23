@@ -1,0 +1,119 @@
+#网易的源（163源，无论是不是教育网，速度都很快）
+deb http://mirrors.163.com/ubuntu/ raring main universe restricted multiverse
+deb-src http://mirrors.163.com/ubuntu/ raring main universe restricted multiverse
+deb http://mirrors.163.com/ubuntu/ raring-security universe main multiverse restricted
+deb-src http://mirrors.163.com/ubuntu/ raring-security universe main multiverse restricted
+deb http://mirrors.163.com/ubuntu/ raring-updates universe main multiverse restricted
+deb http://mirrors.163.com/ubuntu/ raring-proposed universe main multiverse restricted
+deb-src http://mirrors.163.com/ubuntu/ raring-proposed universe main multiverse restricted
+deb http://mirrors.163.com/ubuntu/ raring-backports universe main multiverse restricted
+deb-src http://mirrors.163.com/ubuntu/ raring-backports universe main multiverse restricted
+deb-src http://mirrors.163.com/ubuntu/ raring-updates universe main multiverse restricted
+
+#搜狐的源（sohu 源今天还没有更新，不过应该快了）
+deb http://mirrors.sohu.com/ubuntu/ raring main restricted
+deb-src http://mirrors.sohu.com/ubuntu/ raring main restricted
+deb http://mirrors.sohu.com/ubuntu/ raring-updates main restricted
+deb-src http://mirrors.sohu.com/ubuntu/ raring-updates main restricted
+deb http://mirrors.sohu.com/ubuntu/ raring universe
+deb-src http://mirrors.sohu.com/ubuntu/ raring universe
+deb http://mirrors.sohu.com/ubuntu/ raring-updates universe
+deb-src http://mirrors.sohu.com/ubuntu/ raring-updates universe
+deb http://mirrors.sohu.com/ubuntu/ raring multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ raring multiverse
+deb http://mirrors.sohu.com/ubuntu/ raring-updates multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ raring-updates multiverse
+deb http://mirrors.sohu.com/ubuntu/ raring-backports main restricted universe multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ raring-backports main restricted universe multiverse
+deb http://mirrors.sohu.com/ubuntu/ raring-security main restricted
+deb-src http://mirrors.sohu.com/ubuntu/ raring-security main restricted
+deb http://mirrors.sohu.com/ubuntu/ raring-security universe
+deb-src http://mirrors.sohu.com/ubuntu/ raring-security universe
+deb http://mirrors.sohu.com/ubuntu/ raring-security multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ raring-security multiverse
+deb http://extras.ubuntu.com/ubuntu raring main
+deb-src http://extras.ubuntu.com/ubuntu raring main
+
+#台湾源（台湾的ubuntu 更新源还是很给力的）
+deb http://tw.archive.ubuntu.com/ubuntu/ raring main universe restricted multiverse
+deb-src http://tw.archive.ubuntu.com/ubuntu/ raring main universe restricted multiverse
+deb http://tw.archive.ubuntu.com/ubuntu/ raring-security universe main multiverse restricted
+deb-src http://tw.archive.ubuntu.com/ubuntu/ raring-security universe main multiverse restricted
+deb http://tw.archive.ubuntu.com/ubuntu/ raring-updates universe main multiverse restricted
+deb-src http://tw.archive.ubuntu.com/ubuntu/ raring-updates universe main multiverse restricted
+
+#骨头源，骨头源是bones7456架设的一个Ubuntu源 ，提供ubuntu,deepin
+deb http://ubuntu.srt.cn/ubuntu/ raring main universe restricted multiverse
+deb-src http://ubuntu.srt.cn/ubuntu/ raring main universe restricted multiverse
+deb http://ubuntu.srt.cn/ubuntu/ raring-security universe main multiverse restricted
+deb-src http://ubuntu.srt.cn/ubuntu/ raring-security universe main multiverse restricted
+deb http://ubuntu.srt.cn/ubuntu/ raring-updates universe main multiverse restricted
+deb http://ubuntu.srt.cn/ubuntu/ raring-proposed universe main multiverse restricted
+deb-src http://ubuntu.srt.cn/ubuntu/ raring-proposed universe main multiverse restricted
+deb http://ubuntu.srt.cn/ubuntu/ raring-backports universe main multiverse restricted
+deb-src http://ubuntu.srt.cn/ubuntu/ raring-backports universe main multiverse restricted
+deb-src http://ubuntu.srt.cn/ubuntu/ raring-updates universe main multiverse restricted
+
+#ubuntu.cn99.com源（推荐）:
+deb http://ubuntu.cn99.com/ubuntu/ raring main restricted universe multiverse
+deb http://ubuntu.cn99.com/ubuntu/ raring-updates main restricted universe multiverse
+deb http://ubuntu.cn99.com/ubuntu/ raring-security main restricted universe multiverse
+deb http://ubuntu.cn99.com/ubuntu/ raring-backports main restricted universe multiverse
+deb http://ubuntu.cn99.com/ubuntu-cn/ raring main restricted universe multiverse
+
+#教育网源
+#电子科技大学
+deb http://ubuntu.uestc.edu.cn/ubuntu/ raring main restricted universe multiverse
+deb http://ubuntu.uestc.edu.cn/ubuntu/ raring-backports main restricted universe multiverse
+deb http://ubuntu.uestc.edu.cn/ubuntu/ raring-proposed main restricted universe multiverse
+deb http://ubuntu.uestc.edu.cn/ubuntu/ raring-security main restricted universe multiverse
+deb http://ubuntu.uestc.edu.cn/ubuntu/ raring-updates main restricted universe multiverse
+deb-src http://ubuntu.uestc.edu.cn/ubuntu/ raring main restricted universe multiverse
+deb-src http://ubuntu.uestc.edu.cn/ubuntu/ raring-backports main restricted universe multiverse
+deb-src http://ubuntu.uestc.edu.cn/ubuntu/ raring-proposed main restricted universe multiverse
+deb-src http://ubuntu.uestc.edu.cn/ubuntu/ raring-security main restricted universe multiverse
+deb-src http://ubuntu.uestc.edu.cn/ubuntu/ raring-updates main restricted universe multiverse
+
+#中国科技大学
+deb http://debian.ustc.edu.cn/ubuntu/ raring main restricted universe multiverse
+deb http://debian.ustc.edu.cn/ubuntu/ raring-backports restricted universe multiverse
+deb http://debian.ustc.edu.cn/ubuntu/ raring-proposed main restricted universe multiverse
+deb http://debian.ustc.edu.cn/ubuntu/ raring-security main restricted universe multiverse
+deb http://debian.ustc.edu.cn/ubuntu/ raring-updates main restricted universe multiverse
+deb-src http://debian.ustc.edu.cn/ubuntu/ raring main restricted universe multiverse
+deb-src http://debian.ustc.edu.cn/ubuntu/ raring-backports main restricted universe multiverse
+deb-src http://debian.ustc.edu.cn/ubuntu/ raring-proposed main restricted universe multiverse
+deb-src http://debian.ustc.edu.cn/ubuntu/ raring-security main restricted universe multiverse
+deb-src http://debian.ustc.edu.cn/ubuntu/ raring-updates main restricted universe multiverse
+#北京理工大学
+deb http://mirror.bjtu.edu.cn/ubuntu/ raring main multiverse restricted universe
+deb http://mirror.bjtu.edu.cn/ubuntu/ raring-backports main multiverse restricted universe
+deb http://mirror.bjtu.edu.cn/ubuntu/ raring-proposed main multiverse restricted universe
+deb http://mirror.bjtu.edu.cn/ubuntu/ raring-security main multiverse restricted universe
+deb http://mirror.bjtu.edu.cn/ubuntu/ raring-updates main multiverse restricted universe
+deb-src http://mirror.bjtu.edu.cn/ubuntu/ raring main multiverse restricted universe
+deb-src http://mirror.bjtu.edu.cn/ubuntu/ raring-backports main multiverse restricted universe
+deb-src http://mirror.bjtu.edu.cn/ubuntu/ raring-proposed main multiverse restricted universe
+deb-src http://mirror.bjtu.edu.cn/ubuntu/ raring-security main multiverse restricted universe
+deb-src http://mirror.bjtu.edu.cn/ubuntu/ raring-updates main multiverse restricted universe
+
+#兰州大学
+deb ftp://mirror.lzu.edu.cn/ubuntu/ raring main multiverse restricted universe
+deb ftp://mirror.lzu.edu.cn/ubuntu/ raring-backports main multiverse restricted universe
+deb ftp://mirror.lzu.edu.cn/ubuntu/ raring-proposed main multiverse restricted universe
+deb ftp://mirror.lzu.edu.cn/ubuntu/ raring-security main multiverse restricted universe
+deb ftp://mirror.lzu.edu.cn/ubuntu/ raring-updates main multiverse restricted universe
+deb ftp://mirror.lzu.edu.cn/ubuntu-cn/ raring main multiverse restricted universe
+
+#上海交通大学（上海交大源，教育网的速度不用说了）
+deb http://ftp.sjtu.edu.cn/ubuntu/ raring main multiverse restricted universe
+deb http://ftp.sjtu.edu.cn/ubuntu/ raring-backports main multiverse restricted universe
+deb http://ftp.sjtu.edu.cn/ubuntu/ raring-proposed main multiverse restricted universe
+deb http://ftp.sjtu.edu.cn/ubuntu/ raring-security main multiverse restricted universe
+deb http://ftp.sjtu.edu.cn/ubuntu/ raring-updates main multiverse restricted universe
+deb http://ftp.sjtu.edu.cn/ubuntu-cn/ raring main multiverse restricted universe
+deb-src http://ftp.sjtu.edu.cn/ubuntu/ raring main multiverse restricted universe
+deb-src http://ftp.sjtu.edu.cn/ubuntu/ raring-backports main multiverse restricted universe
+deb-src http://ftp.sjtu.edu.cn/ubuntu/ raring-proposed main multiverse restricted universe
+deb-src http://ftp.sjtu.edu.cn/ubuntu/ raring-security main multiverse restricted universe
+deb-src http://ftp.sjtu.edu.cn/ubuntu/ raring-updates main multiverse restricted universe

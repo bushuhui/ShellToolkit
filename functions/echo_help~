@@ -1,0 +1,7 @@
+FILE_Content=$(cat < $Here_Path/$Function_Name.func)
+HELP=${FILE_Content##*##BEGIN_HELP##};
+HELP=${HELP%##END_HELP##*};
+echo "usage:  $Function_Name [options values]"
+echo options:"$HELP"---------------------By ZhaoYong-----------------
+exit 0
+

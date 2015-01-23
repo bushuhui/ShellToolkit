@@ -1,0 +1,64 @@
+#!/bin/sh
+if [ -z $Call_Path ];then
+Call_Path=$(pwd)
+Here_Path=$(dirname $(readlink -f $0))
+else
+Here_Path=$Here_Path/functions
+fi
+Backup_Path=$Here_Path/../..
+##################### other functions below ######################
+introduction()
+{
+	echo "$Function_Name  This function Backup or Restore the system."
+}
+Echo_Help()
+{
+cat <<HELP
+	--------------------- function  -----------------
+	usage:  function [-f function_name function_options]
+	options:
+		( -h | -help | --h* ) shift 1;Echo_Help $*;exit 1;; #[-h]Show usages
+		( -i | intro* ) shift 1;introduction $*;exit 1;; #[-i]Show introduction
+		-Backup) shift 1;SYS_Backup $*;exit 1;; #[-i]Show introduction
+		-Restore) shift 1;SYS_Restore $*;exit 1;; #[-i]Show introduction
+		-edit) shift 1;gedit $0;exit 1;; #[-edit]edit this function
+		-*) echo "error: no such option $1. -h for help";exit 1;;
+		*)  $*;exit 1;; #call function heres
+	---------------------By ZhaoYong-----------------
+HELP
+}
+SYS_Backup()
+{
+cd /
+tar cvpzf $Backup_Path/SYS_Backup.tgz --exclude=/proc --exclude=/tmp --exclude=/lost+found --exclude=$Here_Path/SYS_Backup.tgz --exclude=/mnt --exclude=/media --exclude=/sys /
+}
+SYS_Restore()
+{
+tar xvpfz $Backup_Path/SYS_Backup.tgz -C /
+mkdir proc
+mkdir lost+found
+mkdir mnt
+mkdir media
+mkdir sys
+}
+######################  main below  #######################
+if [ -n "$1" ];then
+	while [ -n "$1" ]; do
+	case $1 in
+		( -h | -help | --h* ) shift 1;Echo_Help $*;exit 1;; #[-h]Show usages
+		( -i | intro* ) shift 1;introduction $*;exit 1;; #[-i]Show introduction
+		-Backup) shift 1;SYS_Backup $*;exit 1;; #[-i]Show introduction
+		-Restore) shift 1;SYS_Restore $*;exit 1;; #[-i]Show introduction
+		-edit) shift 1;gedit $Here_Path/$Function_Name.func;exit 1;; #[-edit]edit this function
+		-*) echo "error: no such option $1. -h for help";exit 1;;
+		*)  $*;exit 1;; #call function here
+	esac
+	done
+echo "Please ensure that you are in rooted state!!"
+
+#else
+#	echo_help
+fi
+echo ----------------------------------------------------
+
+

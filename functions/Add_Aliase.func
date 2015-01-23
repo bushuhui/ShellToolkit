@@ -1,0 +1,76 @@
+#!/bin/sh
+if [ -z $Call_Path ];then
+Call_Path=$(pwd)
+Here_Path=$(dirname $(readlink -f $0))
+else
+Here_Path=$Here_Path/functions
+fi
+introduction()
+{
+	echo "$Function_Name  \n This function add_aliases to file $Alias_File."
+}
+echo_help()
+{
+cat <<HELP
+	--------------------- function  -----------------
+		-h) shift 1;echo_help $*;exit 1;; #[-h]Show usages
+		-i) shift 1;introduction $*;exit 1;; #[-h]Show introduction
+		-back*) shift 1;backup $*;exit 1;; #[-h]Copy ~/.bash_aliases to $Here_Path/Aliase.backup.
+		backup*) shift 1;backup $*;exit 1;; #[-h]Copy ~/.bash_aliases to $Here_Path/Aliase.backup.
+		-re*) shift 1;restore $*;exit 1;; #[-h]Copy $Here_Path/Aliase.backup to ~/.bash_aliases
+		restore*) shift 1;restore $*;exit 1;; #[-h]Copy $Here_Path/Aliase.backup to ~/.bash_aliases
+		-d*) shift 1;$Here_Path/Aliase_Lists $*;exit 1;; #[-d*]To add the default aliases in file alias_list
+		-*) echo "error: no such option $1. -h for help";exit 1;;
+		*)  add "$*";exit 1;; #call function here
+	---------------------By ZhaoYong-----------------
+HELP
+}
+
+add()
+{
+echo alias "$1"
+echo alias "$1" >>$Alias_File
+gedit $Alias_File
+}
+backup()
+{
+if [ -n "$1" ];then
+echo "Copy ~/.bash_aliases to $Here_Path/Aliase_$1.backup ."
+cp ~/.bash_aliases $Here_Path/Aliase_$1.backup
+more $Here_Path/Aliase_$1.backup
+else
+echo "Copy ~/.bash_aliases to $Here_Path/Aliase.backup ."
+cp ~/.bash_aliases $Here_Path/Aliase.backup
+more $Here_Path/Aliase.backup
+fi
+}
+restore()
+{
+if [ -n "$1" ];then
+echo "Copy $Here_Path/Aliase_$1.backup to ~/.bash_aliases ."
+sudo cp $Here_Path/Aliase_$1.backup ~/.bash_aliases
+else
+echo "Copy $Here_Path/Aliase.backup to ~/.bash_aliases ."
+sudo cp $Here_Path/Aliase.backup ~/.bash_aliases
+fi
+more ~/.bash_aliases
+}
+######################  options below  #######################
+while [ -n "$1" ]; do
+	case $1 in
+		-h) shift 1;echo_help $*;exit 1;; #[-h]Show usages
+		-i) shift 1;introduction $*;exit 1;; #[-h]Show introduction
+		-back*) shift 1;backup $*;exit 1;; #[-h]Copy ~/.bash_aliases to $Here_Path/Aliase.backup.
+		backup*) shift 1;backup $*;exit 1;; #[-h]Copy ~/.bash_aliases to $Here_Path/Aliase.backup.
+		-re*) shift 1;restore $*;exit 1;; #[-h]Copy $Here_Path/Aliase.backup to ~/.bash_aliases
+		restore*) shift 1;restore $*;exit 1;; #[-h]Copy $Here_Path/Aliase.backup to ~/.bash_aliases
+		-d*) shift 1;$Here_Path/Aliase_Lists $*;exit 1;; #[-d*]To add the default aliases in file alias_list
+		-*) echo "error: no such option $1. -h for help";exit 1;;
+		*)  add "$*";exit 1;; #call function here
+	esac
+done
+#####################do something here######################
+
+echo ----------------------------------------------------
+exit 0
+

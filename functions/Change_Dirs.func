@@ -1,0 +1,39 @@
+#!/bin/sh
+Call_Path=$(pwd)
+Here_Path=$(dirname $(readlink -f $0))
+introduction()
+{
+	echo "$Function_Name  This function open the Dir_Config file."
+}
+echo_help()
+{
+cat <<HELP
+	--------------------- function  -----------------
+	usage:  function [-f function_name function_options]
+	options:
+		-h) shift 1;echo_help $*;exit 1;; #[-h]Show usages
+		-i) shift 1;introduction $*;exit 1;; #[-h]Show usages
+		-*) echo "error: no such option $1. -h for help";exit 1;;
+		*)  $*;exit 1;; #call function here
+	---------------------By ZhaoYong-----------------
+HELP
+}
+
+######################  options below  #######################
+if [ -n "$1" ];then
+	while [ -n "$1" ]; do
+		case $1 in
+			-h) shift 1;echo_help $*;exit 1;; #[-h]Show usages
+			-i) shift 1;introduction $*;exit 1;; #[-i]Show introduction
+			intro*) shift 1;introduction $*;exit 1;; #[intro*]Show introduction
+			-*) echo "error: no such option $1. -h for help";exit 1;;
+			*)  $*;exit 1;; #call function here
+		esac
+	done
+	else
+	sudo gedit ~/.config/user-dirs.dirs
+fi
+#####################do something here######################
+
+echo ----------------------------------------------------
+exit 0

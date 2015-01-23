@@ -1,0 +1,29 @@
+Complete_Path=$Here_Path/Complete_List
+if [ -e "$Complete_Path" ];then
+	export Complete_List=$(cd $Complete_Path&&ls |sed 's/\(.*\)\..*$/\1/')
+fi
+export Function_Names=$(cd $Here_Path&&ls *.func|sed 's/\(.*\)\..*$/\1/')
+
+#complete -W "$Function_Names $Function_Comps" "function"
+function_complete() 
+{
+    COMPREPLY=()
+    local cur=${COMP_WORDS[COMP_CWORD]};
+    local com=${COMP_WORDS[COMP_CWORD-1]};
+    for test_str in $Complete_List;do
+	if [ $com = $test_str ];then
+		 Exist_Value="1"
+	fi
+    done
+    if [ "$Exist_Value" = "1" ]; then
+	Lists_=$(cat $Complete_Path/$com.comp) 
+	#echo "\"$com\"  $Lists_"
+	if [ "$com" = "function" ];then
+        	COMPREPLY=($(compgen -W "$Function_Names $Lists_" -- $cur))
+        else
+		COMPREPLY=($(compgen -W "$Lists_" -- $cur))
+	fi
+    fi
+    return 0
+}
+complete -F function_complete "function"

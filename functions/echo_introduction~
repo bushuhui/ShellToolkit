@@ -1,0 +1,6 @@
+#!/bin/sh
+FILE_Content=$(cat < $Here_Path/$Function_Name.func)
+HELP=${FILE_Content##*##BEGIN_INTRODUCTION##};
+HELP=${HELP%##END_INTRODUCTION##*};
+echo "$HELP"
+

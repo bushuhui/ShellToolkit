@@ -1,0 +1,43 @@
+#!/bin/sh
+if [ -z $Call_Path ];then
+Call_Path=$(pwd)
+Here_Path=$(dirname $(readlink -f $0))
+fi
+##################### other functions below ######################
+
+introduction()
+{
+	echo "$Function_Name  This function turn on/off the touch_board."
+}
+Echo_Help()
+{
+cat <<HELP
+	--------------------- function  -----------------
+	usage:  function [-f function_name function_options]
+	options:
+		-h) shift 1;echo_help $*;exit 1;; #[-h]Show usages
+		-i) shift 1;introduction $*;exit 1;; #[-h]Show usages
+		-*) echo "error: no such option $1. -h for help";exit 1;;
+		*)  $*;exit 1;; #call function here
+	---------------------By ZhaoYong-----------------
+HELP
+}
+######################  main below  #######################
+if [ -n "$1" ];then
+	while [ -n "$1" ]; do
+	case $1 in
+		( -h | -help | --h* ) shift 1;Echo_Help $*;exit 1;; #[-h]Show usages
+		( -i | intro* ) shift 1;introduction $*;exit 1;; #[-i]Show introduction
+		-edit) shift 1;gedit $0;exit 1;; #[-edit]edit this function
+		on) shift 1; sudo modprobe psmouse;exit 1;; #[-edit]edit this function
+		off) shift 1; sudo rmmod psmouse;exit 1;; #[-edit]edit this function
+		-*) echo "error: no such option $1. -h for help";exit 1;;
+		*)  $*;exit 1;; #call function here
+	esac
+	done
+#else
+#	echo_help
+fi
+echo ----------------------------------------------------
+
+

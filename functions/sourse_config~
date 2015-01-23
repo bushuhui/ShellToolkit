@@ -1,0 +1,9 @@
+#!/bin/bash
+Call_Path=$(pwd)
+Here_Path=$(dirname $(readlink -f $0))
+source=/etc/apt/sources.list
+sudo cp $source $Here_Path/sources.list.old
+#sudo cat ./sourse_list $source
+sudo cp $Here_Path/sourse_list $source
+sudo gedit $source
+sudo apt-get update

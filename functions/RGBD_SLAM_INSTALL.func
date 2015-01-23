@@ -1,0 +1,112 @@
+#!/bin/sh
+if [ -z $Call_Path ];then
+Call_Path=$(pwd)
+Here_Path=$(dirname $(readlink -f $0))
+else
+Here_Path=$Here_Path/functions
+fi
+ROS()
+{
+##BEGIN_INTRODUCTION##	This function does not got an introduction yet.
+##END_INTRODUCTION##
+##################### other functions below ######################
+sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu precise main" > /etc/apt/sources.list.d/ros-latest.list'
+wget http://packages.ros.org/ros.key -O - | sudo apt-key add -
+sudo apt-get update
+###########################################INSTALL#####################################
+#Desktop-Full Install: (Recommended) : ROS, rqt, rviz, robot-generic libraries, 2D/3D simulators, navigation and 2D/3D perception 
+sudo apt-get install ros-hydro-desktop-full 
+#Desktop Install: ROS, rqt, rviz, and robot-generic libraries 
+#sudo apt-get install ros-hydro-desktop
+#ROS-Base: (Bare Bones) ROS package, build, and communication libraries. No GUI tools. 
+#sudo apt-get install ros-hydro-ros-base
+#Individual Package: You can also install a specific ROS package (replace underscores with dashes of the package name): 
+#sudo apt-get install ros-hydro-PACKAGE #eg
+#To find available packages, use:
+#apt-cache search ros-hydro
+
+sudo aptitude install ros-fuerte-perception-pcl ros-fuerte-vision-opencv ros-fuerte-octomap-mapping python-rosdep 
+#########################################Initialize rosdep#######################
+
+#Before you can use ROS, you will need to initialize rosdep. rosdep enables you to easily install system dependencies for source you want to compile and is required to run some core components in ROS.
+
+sudo rosdep init
+rosdep update
+
+###################Environment setup######################
+
+#It's convenient if the ROS environment variables are automatically added to your bash session every time a new shell is launched:
+
+echo "source /opt/ros/hydro/setup.bash" >> ~/.bashrc
+source ~/.bashrc
+
+#If you have more than one ROS distribution installed, ~/.bashrc must only source the setup.bash for the version you are currently using.
+
+#If you just want to change the environment of your current shell, you can type:
+
+#source /opt/ros/hydro/setup.bash
+########################Getting rosinstall#######################
+
+#rosinstall is a frequently used command-line tool in ROS that is distributed separately. It enables you to easily download many source trees for ROS packages with one command.
+
+#To install this tool on Ubuntu, run:
+
+sudo apt-get install python-rosinstall
+}
+Without_ROS()
+{
+
+# Better pick a mirror close to you. 
+# See http://ros.org/wiki/ROS/Installation/UbuntuMirrors
+sudo sh -c '. /etc/lsb-release && echo "deb http://packages.ros.org/ros/ubuntu $DISTRIB_CODENAME main" > /etc/apt/sources.list.d/ros-latest.list' 
+sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu precise main" > /etc/apt/sources.list.d/ros-latest.list'
+wget http://packages.ros.org/ros.key -O - | sudo apt-key add -
+
+sudo aptitude update
+
+# This will draw gigabytes from the network:
+sudo aptitude install ros-fuerte-perception-pcl ros-fuerte-vision-opencv ros-fuerte-octomap-mapping python-rosdep 
+
+echo 'source /opt/ros/fuerte/setup.bash' >> ~/.bashrc
+
+echo 'export ROS_PACKAGE_PATH=~/ros:$ROS_PACKAGE_PATH' >> ~/.bashrc
+
+. ~/.bashrc
+
+svn co http://alufr-ros-pkg.googlecode.com/svn/trunk/rgbdslam_freiburg ~/ros/rgbdslam_freiburg
+
+sudo rosdep init
+
+rosdep update
+
+rosdep install rgbdslam_freiburg
+
+roscd rgbdslam
+
+# This will take a while:
+rosmake rgbdslam_freiburg 
+
+
+
+}
+######################  main below  #######################
+if [ -n "$1" ];then
+	while [ -n "$1" ]; do
+	case $1 in
+##BEGIN_HELP##
+		( -h | -help | --h* ) shift 1;. $Here_Path/echo_help;exit 1;; #[-h]Show usages 
+		with_ros)shift 1;ROS;exit 1;;
+		without_ros)shift 1;Without_ROS;exit 1;;
+		( -i | intro* ) shift 1;. $Here_Path/echo_introduction;exit 1;; #[-i]Show introduction 
+		-edit|edit) shift 1;gedit $Here_Path/$Function_Name.func;exit 1;; #[-edit]edit this function 
+		-*) echo "error: no such option $1. -h for help";exit 1;; # 
+		*)  $*;exit 1;; #call function here
+##END_HELP##
+	esac
+	done
+#else
+#	echo_help
+fi
+echo ----------------------------------------------------
+
+

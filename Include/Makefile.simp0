@@ -1,0 +1,50 @@
+#Makefile genarated by make.func
+#This is the simple version,no *.o files will be genarated and it's suitable for small projects
+CC=gcc
+CXX=g++
+MOC=moc-qt4
+#System Config Things
+include $(Function_Data_Path)/LIBS_CONFIG.mk
+################################################################################################
+#   Main Body of the Makefile
+################################################################################################
+# Source Files Config
+#Where to put source files
+SRC_PATH  =. 
+           
+#Where to put object files
+BUILD_PATH=./build/
+
+CPP_FILES=$(shell find $(SRC_PATH) -name \*.cpp)
+CC_FILES=$(shell find $(SRC_PATH) -name \*.cc)
+C_FILES=$(shell find $(SRC_PATH) -name \*.c)        
+H_FILES=$(shell find $(SRC_PATH) -name \*.h)  
+SRC_FILES=$(CPP_FILES) $(CC_FILES) $(C_FILES)
+ 
+# Output Config
+Here_Path=$(shell pwd)
+HereFolderName=$(shell pwd |sed 's/^\(.*\)[/]//' )
+OUTPUT=$(HereFolderName)
+
+
+# LIBS Config
+COMPILEFLAGS =$(ALL_CFLAGS)
+
+LINKFLAGS    =$(ALL_LDFLAGS)  
+
+# Compile things
+$(OUTPUT):$(SRC_FILES) $(H_FILES)
+	$(CXX) -o $@ $^ $(COMPILEFLAGS) $(LINKFLAGS)
+
+$(BUILD_PATH)%.o: %.cpp
+	$(CXX) -c $< -o $@  $(COMPILEFLAGS)
+
+$(BUILD_PATH)%.o: %.cc
+	$(CXX) -c $< -o $@  $(COMPILEFLAGS)
+
+$(BUILD_PATH)%.o: %.c
+	$(CXX) -c $< -o $@  $(COMPILEFLAGS)
+
+# Clean Things
+clean :
+	rm $(OUTPUT)

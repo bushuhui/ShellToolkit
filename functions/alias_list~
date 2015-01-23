@@ -1,0 +1,58 @@
+#!/bin/bash
+Alias_File=~/.bash_aliases
+echo the alias file is $Alias_File
+CV_PATH=/media/Software
+echo inserting the alias...
+echo \#some change by zhaoyong>>$Alias_File
+
+add()
+{
+echo alias $1
+echo alias $1 >>$Alias_File
+}
+main()
+{
+#nautilus paths
+add "CV=\"nautilus $CV_PATH\""	
+
+
+#shell rename
+
+add 'make="make -j 4"'
+add "off_touch=\"sudo rmmod psmouse\""
+add "on_touch=\"sudo modprobe psmouse\""
+add "firefox=\"nohup firefox&\""
+add "ins='sudo apt-get install'"
+add "search='sudo apt-cache search'"
+
+#softwares below
+#office
+add "office='libreoffice'"
+add "word='libreoffice --writer'"
+add "excel='libreoffice --calc'"
+add "ppt='libreoffice --impress'"
+add "function = bash /media/Software/Linux/config_shell/function '$*'"
+}
+main1()
+{
+sudo $Alias_File <<List
+#some change by zhaoyong
+alias CV="nautilus /media/Software"
+alias off_touch="sudo rmmod psmouse"
+alias on_touch="sudo modprobe psmouse"
+alias firefox="nohup firefox&"
+alias ins='sudo apt-get install'
+alias search='sudo apt-cache search'
+alias office='libreoffice'
+alias word='libreoffice --writer'
+alias excel='libreoffice --calc'
+alias ppt='libreoffice --impress'
+alias qt='qtcreator'
+alias virtualbox='nohup virtualbox&'
+export PS1="\[\033[32m\]\W>\[\033[0m\] "
+export PS2="> "
+export PS4="+ "
+alias function="bash /media/Document/Linux/config_shell/function $* "
+List
+}
+gedit $Alias_File

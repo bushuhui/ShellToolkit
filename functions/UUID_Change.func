@@ -1,0 +1,50 @@
+#UUID_Change
+#!/bin/sh
+Call_Path=$(pwd)
+Here_Path=$(dirname $(readlink -f $0))
+introduction()
+{
+	echo "$Function_Name  This function change the UUID for a virtual disk."
+}
+echo_help()
+{
+cat <<HELP
+	--------------------- function  -----------------
+	usage:  function [-f function_name function_options]
+	options:
+		-h) shift 1;echo_help $*;exit 1;; #[-h]Show usages
+		-i) shift 1;introduction $*;exit 1;; #[-i]Show introduction
+		intro*) shift 1;introduction $*;exit 1;; #[intro*]Show introduction
+		show*) shift 1;sudo blkid;exit 1;; #show*]Show UUID for user
+		-*) echo "error: no such option $1. -h for help";exit 1;;
+		*)  setup $*;exit 1;; #call function here
+	---------------------By ZhaoYong-----------------
+HELP
+}
+setup()
+{
+if [ -f $Call_Path/$1 ];then
+	VBoxManage internalcommands sethduuid $Call_Path/$1
+else
+	echo "Can't find $Call_Path/$1!"
+fi
+}
+######################  options below  #######################
+if [ -n "$1" ];then
+	while [ -n "$1" ]; do
+		case $1 in
+			-h) shift 1;echo_help $*;exit 1;; #[-h]Show usages
+			-i) shift 1;introduction $*;exit 1;; #[-i]Show introduction
+			intro*) shift 1;introduction $*;exit 1;; #[intro*]Show introduction
+			show*) shift 1;sudo blkid;exit 1;; #show*]Show UUID for user
+			-*) echo "error: no such option $1. -h for help";exit 1;;
+			*)  setup $*;exit 1;; #call function here
+		esac
+	done
+	else
+	echo "Please input a virtual_disk_file!"
+fi
+#####################do something here######################
+
+echo ----------------------------------------------------
+exit 0

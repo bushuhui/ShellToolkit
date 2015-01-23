@@ -1,0 +1,331 @@
+Act=Map2D_Test
+Act=Map_Test
+Act=GPS_Reader_Test
+Act=GPS_Reader_Test
+Act=GPS_Reader_Test
+Act=GPS_Reader_Test
+Act=GPS_Reader_Test
+Act=GPS_Reader_Test
+Act=GPS_Reader_Test
+Act=GPS_Reader_Test
+Act=GPS_Reader_Test
+Act=GPS_Reader_Test GPS.ReadType=1
+Act=GPS_Reader_Test GPS.ReadType=1
+Act=GPS_Reader_Test GPS.ReadType=2
+Act=GPS_Reader_Test GPS.ReadType=2
+Act=GPS_Reader_Test GPS.ReadType=2
+Act=GPS_Reader_Test GPS.ReadType=2
+Act=GPS_Reader_Test GPS.ReadType=2
+Act=GPS_Reader_Test GPS.ReadType=2
+Act=GPS_Reader_Test GPS.ReadType=2
+Act=GPS_Reader_Test GPS.ReadType=2
+Act=GPS_Reader_Test GPS.ReadType=2
+Act=GPS_Reader_Test GPS.ReadType=2
+Act=GPS_Reader_Test GPS.ReadType=2
+Act=GPS_Reader_Test GPS.ReadType=2
+Act=GPS_Reader_Test GPS.ReadType=2
+Act=GPS_Reader_Test GPS.ReadType=2
+Act=GPS_Reader_Test GPS.ReadType=1
+Act=Map2D_Test
+Act=Map2D_Test
+Act=Map2D_Test
+Act=Map2D_Test
+Act=Map2D_Test
+Act=Map2D_Test
+Act=Map2D_Test
+Act=GPS_Reader_Test
+Act=GPS_Reader_Test
+Act=GPS_Reader_Test
+Act=GPS_Reader_Test
+Act=GPS_Reader_Test
+Act=GPS_Reader_Test
+Act=GPS_Reader_Test
+Act=GPS_Reader_Test
+VideoPrepare.ImgSkip=3
+Act=Map2D_Test
+CalibrateVideo=/data/zhaoyong/Linux/Program/Data/uav_image/videos/GOPRO_2014.11/flight_06_02.MP4
+CalibrateVideo=/data/zhaoyong/Linux/Program/Data/uav_image/videos/GOPRO_2014.11/flight_06_02.MP4
+CalibrateVideo=/data/zhaoyong/Linux/Program/Data/uav_image/videos/GOPRO_2014.11/flight_06_02.MP4 VideoPrepare.ImgSkip=10
+CalibrateVideo=/data/zhaoyong/Linux/Program/Data/uav_image/videos/GOPRO_2014.11/flight_06_01.MP4 VideoPrepare.ImgSkip=10
+VideoPrepare.ImgSkip=0
+CalibrateVideo=/data/zhaoyong/Linux/Program/Data/uav_image/videos/GOPRO_2014.11/flight_06_01.MP4 VideoPrepare.ImgSkip=10
+CalibrateVideo=/data/zhaoyong/Linux/Program/Data/uav_image/videos/GOPRO_2014.11/flight_06_01.MP4 VideoPrepare.ImgSkip=10
+Act=GPS_Reader_Test
+VideoPrepare.ImgSkip=0
+Act=Map_Test
+Act=GPS_Reader_Test
+Act=GPS_Reader_Test
+Act=GPS_Reader_Test
+Act=GPS_Reader_Test
+Act=GPS_Reader_Test
+Act=GPS_Reader_Test
+Act=GPS_Reader_Test
+Act=GPS_Reader_Test GPS.ReadType=2
+Act=GPS_Reader_Test
+Act=GPS_Reader_Test
+Act=GPS_Reader_Test
+Act=GPS_Reader_Test
+Act=GPS_Reader_Test
+Act=GPS_Reader_Test
+Act=GPS_Reader_Test
+Act=GPS_Reader_Test GPS.ReadType=1
+Act=GPS_Reader_Test GPS.ReadType=1
+Act=GPS_Reader_Test GPS.ReadType=1
+Act=GPS_Reader_Test GPS.ReadType=1
+Act=GPS_Reader_Test GPS.ReadType=0
+Act=GPS_Reader_Test GPS.ReadType=0
+Act=GPS_Reader_Test GPS.ReadType=0
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=1
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=1
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=1
+Act=GPS_Reader_Test GPS.ReadType=0
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=1
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=1
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=1
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=1
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=1
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=1
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=1
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=1
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=1
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=1
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+Act=GPS_Reader_Test GPS.ReadType=0
+Act=GPS_Reader_Test GPS.ReadType=0
+Act=GPS_Reader_Test GPS.ReadType=0
+Act=GPS_Reader_Test GPS.ReadType=0
+Act=GPS_Reader_Test GPS.ReadType=0
+Act=GPS_Reader_Test GPS.ReadType=0
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+Act=GPS_Reader_Test GPS.ReadType=0
+Act=GPS_Reader_Test GPS.port=out.fld GPS.port_type=2 GPS.ReadType=2
+FeatureDescribtor=ORB
+FeatureDescribtor=ORB CalibrateVideo=/data/zhaoyong/Linux/Program/Data/uav_image/videos/GOPRO_2014.11/flight_06_02.MP4
+FeatureDescribtor=ORB CalibrateVideo=/data/zhaoyong/Linux/Program/Data/uav_image/videos/GOPRO_2014.11/flight_06_02.MP4 VideoPrepare.ImgSkip=5
+FeatureDescribtor=ORB CalibrateVideo=/data/zhaoyong/Linux/Program/Data/uav_image/videos/GOPRO_2014.11/flight_06_02.MP4 VideoPrepare.ImgSkip=5
+FeatureDescribtor=ORB CalibrateVideo=/data/zhaoyong/Linux/Program/Data/uav_image/videos/GOPRO_2014.11/flight_06_02.MP4 VideoPrepare.ImgSkip=50
+FeatureDescribtor=ORB CalibrateVideo=/data/zhaoyong/Linux/Program/Data/uav_image/videos/GOPRO_2014.11/flight_06_02.MP4 VideoPrepare.ImgSkip=50
+FeatureDescribtor=ORB
+Act=GPS_Reader_Test
+Act=Map2D_Test
+Act=Map2D_Test MapData.Alpha=0
+Act=Map2D_Test MapData.Alpha=0
+Act=Map2D_Test MapData.Alpha=0
+Act=Map2D_Test MapData.Alpha=0
+Act=Map2D_Test MapData.Alpha=0
+Act=Map2D_Test MapData.Alpha=0
+Act=Map2D_Test MapData.Alpha=0
+Act=Map2D_Test MapData.Alpha=0
+Act=Map2D_Test MapData.Alpha=0
+Act=GPS_Reader_Test
+VideoPrepare.ImgSkip=3
+VideoPrepare.ImgSkip=3 FeatureDescribtor=SURF
+VideoPrepare.ImgSkip=3
+VideoPrepare.ImgSkip=3
+VideoPrepare.ImgSkip=3
+VideoPrepare.ImgSkip=3
+VideoPrepare.ImgSkip=3
+VideoPrepare.ImgSkip=3
+VideoPrepare.ImgSkip=3
+VideoPrepare.ImgSkip=3
+VideoPrepare.ImgSkip=3
+FeatureDescribtor=SURF SURF.hessianThreshold=1000
+Act=Map2D_Test
+Act=Map2D_Test
+Act=Map2D_Test MapData.Alpha=0
+FeatureDescribtor=ORB
+FeatureDescribtor=ORB
+FeatureDescribtor=ORB
+FeatureDescribtor=ORB
+FeatureDescribtor=ORB
+FeatureDescribtor=ORB
+FeatureDescribtor=ORB
+FeatureDescribtor=ORB
+FeatureDescribtor=ORB
+FeatureDescribtor=ORB
+FeatureDescribtor=ORB
+FeatureDescribtor=ORB
+FeatureDescribtor=ORB
+Act=BundleSimulate
+Act=BundleSimulate
+Act=BundleSimulate
+Act=BundleSimulate
+Act=BundleSimulate
+Act=BundleSimulate
+Act=BundleSimulate
+Act=BundleSimulate
+Act=BundleSimulate
+Act=BundleSimulate
+Act=BundleSimulate
+Act=BundleSimulate
+Act=BundleSimulate
+Act=BundleSimulate
+Act=BundleSimulate
+Act=BundleSimulate
+Act=BundleSimulate
+Act=BundleSimulate
+Act=BundleSimulate
+Act=BundleSimulate
+Act=BundleSimulate
+Act=BundleSimulate
+Act=BundleSimulate
+Act=BundleSimulate
+Act=BundleSimulate
+Act=BundleSimulate
+Act=BundleSimulate
+Act=BundleSimulate
+Act=BundleSimulate
+Act=BundleSimulate
+Act=BundleSimulate
+Act=BundleSimulate
+Act=BundleSimulate
+Act=BundleSimulate
+Act=BundleSimulate
+Act=BundleSimulate
+Act=BundleSimulate
+Act=BundleSimulate
+Act=BundleSimulate
+Act=SE3_Test
+Act=SE3_Test
+Act=SE3_Test
+Act=SE3_Test
+Act=SE3_Test
+Act=SE3_Test
+Act=SE3_Test
+Act=BundleSimulate
+FeatureDescribtor=SURF
+FeatureDescribtor=SURF
+ORB.FastThreshold=15 TrackPause=0
+make
+make
+make
+TrackPause=0
+TrackPause=0
+TrackPause=0
+TrackPause=0
+TrackPause=0
+TrackPause=0
+TrackPause=0
+TrackPause=0
+TrackPause=0
+TrackPause=0
+TrackPause=0
+TrackPause=0
+TrackPause=0
+TrackPause=0 VideoPrepare.ImgSkip=20
+TrackPause=0 VideoPrepare.ImgSkip=20
+TrackPause=0 VideoPrepare.ImgSkip=20
+TrackPause=0 VideoPrepare.ImgSkip=20
+TrackPause=0 VideoPrepare.ImgSkip=20
+TrackPause=0 VideoPrepare.ImgSkip=20
+TrackPause=0 VideoPrepare.ImgSkip=20 InitialPause=0
+TrackPause=0 VideoPrepare.ImgSkip=20 InitialPause=0
+TrackPause=0 VideoPrepare.ImgSkip=20 InitialPause=0
+TrackPause=0 VideoPrepare.ImgSkip=20 InitialPause=0
+TrackPause=0 VideoPrepare.ImgSkip=20 InitialPause=0
+TrackPause=0 VideoPrepare.ImgSkip=20 InitialPause=0 FeatureDescribtor=ORB ORB.FastThreshold=17
+TrackPause=0 VideoPrepare.ImgSkip=20 InitialPause=0 FeatureDescribtor=ORB ORB.FastThreshold=17
+TrackPause=0 VideoPrepare.ImgSkip=20 InitialPause=0 FeatureDescribtor=ORB ORB.FastThreshold=17
+TrackPause=0 VideoPrepare.ImgSkip=20 InitialPause=0 FeatureDescribtor=ORB ORB.FastThreshold=17
+TrackPause=0
+TrackPause=0
+TrackPause=0 FeatureDescribtor=ORB ORB.FastThreshold=18
+TrackPause=0 FeatureDescribtor=ORB ORB.FastThreshold=18
+TrackPause=0 FeatureDescribtor=ORB ORB.FastThreshold=18
+TrackPause=0 FeatureDescribtor=ORB ORB.FastThreshold=18
+TrackPause=0 FeatureDescribtor=ORB ORB.FastThreshold=18
+TrackPause=0 FeatureDescribtor=ORB ORB.FastThreshold=18
+TrackPause=0 FeatureDescribtor=ORB ORB.FastThreshold=18
+TrackPause=0 FeatureDescribtor=ORB ORB.FastThreshold=18
+TrackPause=0 FeatureDescribtor=ORB ORB.FastThreshold=18
+TrackPause=0 FeatureDescribtor=ORB ORB.FastThreshold=18
+TrackPause=0
+TrackPause=0 VideoPrepare.ImgSkip=20
+TrackPause=0 VideoPrepare.ImgSkip=20
+TrackPause=0 VideoPrepare.ImgSkip=15
+TrackPause=0 VideoPrepare.ImgSkip=10
+TrackPause=0 VideoPrepare.ImgSkip=10
+TrackPause=0 VideoPrepare.ImgSkip=10
+TrackPause=0 VideoPrepare.ImgSkip=20
+FeatureDescribtor=ORB ORB.FastThreshold=18 TrackPause=0
+FeatureDescribtor=ORB ORB.FastThreshold=22 TrackPause=0
+FeatureDescribtor=ORB ORB.FastThreshold=26 TrackPause=0
+FeatureDescribtor=ORB ORB.FastThreshold=26 TrackPause=0
+FeatureDescribtor=ORB ORB.FastThreshold=26 TrackPause=0
+FeatureDescribtor=ORB ORB.FastThreshold=26 TrackPause=0
+FeatureDescribtor=ORB ORB.FastThreshold=26 TrackPause=0
+FeatureDescribtor=ORB ORB.FastThreshold=26 TrackPause=0
+FeatureDescribtor=ORB ORB.FastThreshold=26 TrackPause=0
+FeatureDescribtor=ORB ORB.FastThreshold=26 TrackPause=0
+FeatureDescribtor=ORB ORB.FastThreshold=26 TrackPause=0
+FeatureDescribtor=ORB ORB.FastThreshold=26 TrackPause=0
+FeatureDescribtor=ORB ORB.FastThreshold=26 TrackPause=0
+FeatureDescribtor=ORB ORB.FastThreshold=26 TrackPause=0
+FeatureDescribtor=ORB ORB.FastThreshold=26 TrackPause=0
+FeatureDescribtor=ORB ORB.FastThreshold=26 TrackPause=0
+FeatureDescribtor=ORB ORB.FastThreshold=26 TrackPause=0
+FeatureDescribtor=ORB ORB.FastThreshold=26 TrackPause=0
+UseMutiBundle=0
+UseMutiBundle=0
+UseMutiBundle=0
+UseMutiBundle=0
+UseMutiBundle=0
+UseMutiBundle=0
+UseMutiBundle=0
+UseMutiBundle=0
+UseMutiBundle=0
+UseMutiBundle=0
+UseMutiBundle=0
+UseMutiBundle=1
+UseMutiBundle=0
+UseMutiBundle=1
+UseMutiBundle=0
+FeatureDescribtor=SURF UseMutiBundle=0
+FeatureDescribtor=SURF UseMutiBundle=0
+UseMutiBundle=0
+UseMutiBundle=0
+UseMutiBundle=0
+UseMutiBundle=0
+UseMutiBundle=0
+UseMutiBundle=0
+Act=Map2D_Test
+Act=Map2D_Test MapData.Alpha=0
+Act=Map2D_Test
+BundleKFs=100
+BundleKFs=100
+BundleKFs=100
+BundleKFs=100
+BundleKFs=30
+BundleKFs=30
+Act=Map2D_Test
+Map2D_Test
+Act=Map2D_Test
+Act=Map2D_Test
+Act=Map2D_Test MapData.Alpha=0
+BundleKFs=30
+BundleKFs=100

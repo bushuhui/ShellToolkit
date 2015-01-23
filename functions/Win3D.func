@@ -1,0 +1,29 @@
+#Win3D
+#!/bin/sh
+Call_Path=$(pwd)
+##BEGIN_INTRODUCTION##	This function does not got an introduction yet.
+##END_INTRODUCTION##
+##################### other functions below ######################
+open()
+{
+/data/zhaoyong/Linux/Program/Apps/MRPT_WIN3D/kinect-3d-slam $*
+}
+######################  main below  #######################
+if [ -n "$1" ];then
+	while [ -n "$1" ]; do
+	case $1 in
+##BEGIN_HELP##
+		( -h | -help | --h* ) shift 1;. $Function_Path/echo_help;exit 1;; #[-h]Show usages 
+		( -i | intro* ) shift 1;. $Function_Path/echo_introduction;exit 1;; #[-i]Show introduction 
+		-edit|edit) shift 1;gedit $Function_Path/$Function_Name.func;exit 1;; #[-edit]edit this function 
+		-*) echo "error: no such option $1. -h for help";exit 1;; # 
+		*)  open $*;exit 1;; #call function here
+##END_HELP##
+	esac
+	done
+#else
+#	echo_help
+fi
+echo ----------------------------------------------------
+
+

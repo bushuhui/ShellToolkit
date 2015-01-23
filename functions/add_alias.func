@@ -1,0 +1,44 @@
+#!/bin/sh
+Call_Path=$(pwd)
+Here_Path=$(dirname $(readlink -f $0))
+Alias_File=~/.bash_aliases
+introduction()
+{
+	echo "$Function_Name  This function add_aliases to file $Alias_File."
+}
+echo_help()
+{
+cat <<HELP
+	--------------------- function  -----------------
+	usage:  function [-f function_name function_options]
+	options:
+		-h) shift 1;echo_help $*;exit 1;; #[-h]Show usages
+		-i) shift 1;introduction $*;exit 1;; #[-h]Show usages
+		-d*) shift 1;./alias_list $*;exit 1;; #[-d*]To add the default aliases in file alias_list
+		-*) echo "error: no such option $1. -h for help";exit 1;;
+		*)  add "$*";exit 1;; #call function here
+	---------------------By ZhaoYong-----------------
+HELP
+}
+
+add()
+{
+echo alias "$1"
+echo alias "$1" >>$Alias_File
+gedit $Alias_File
+}
+######################  options below  #######################
+while [ -n "$1" ]; do
+	case $1 in
+		-h) shift 1;echo_help $*;exit 1;; #[-h]Show usages
+		-i) shift 1;introduction $*;exit 1;; #[-h]Show usages
+		-d*) shift 1;./alias_list $*;exit 1;; #[-d*]To add the default aliases in file alias_list
+		-*) echo "error: no such option $1. -h for help";exit 1;;
+		*)  add "$*";exit 1;; #call function here
+	esac
+done
+#####################do something here######################
+
+echo ----------------------------------------------------
+exit 0
+

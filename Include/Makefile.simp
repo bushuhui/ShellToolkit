@@ -1,0 +1,92 @@
+#Makefile genarated by make.func
+#This is the simple version,no *.o files will be genarated and it's suitable for small projects
+CC=gcc
+CXX=g++
+MOC=moc-qt4
+ALL:all
+#System Config Things
+
+LIBS_CONFIG_EXIST=$(shell if [ -f $(Function_Data_Path)/LIBS_CONFIG.mk ];then echo exist;fi;)
+ifeq ($(LIBS_CONFIG_EXIST),exist)
+include $(Function_Data_Path)/LIBS_CONFIG.mk
+endif
+
+HERE_CONFIG_EXIST=$(shell if [ -f ./config.mk ];then echo exist;fi;)
+ifeq ($(HERE_CONFIG_EXIST),exist)
+include ./config.mk
+endif
+
+Here_Path=$(shell pwd)
+HereFolderName=$(shell pwd |sed 's/^\(.*\)[/]//' )
+################################################################################################
+#   Main Body of the Makefile
+################################################################################################
+# Source Files Config
+#Where to put source files
+SRC_PATH  ?=.
+# Output Config
+OUTPUT    ?=$(HereFolderName)           
+#Where to put object files
+BUILD_PATH?=./build
+
+# LIBS Config
+COMPILEFLAGS ?=$(ALL_CFLAGS)
+
+LINKFLAGS    ?=$(ALL_LDFLAGS)  
+
+
+#Autoset things
+CPP_FILES=$(shell find $(SRC_PATH) -name \*.cpp)
+CC_FILES=$(shell find $(SRC_PATH) -name \*.cc)
+C_FILES=$(shell find $(SRC_PATH) -name \*.c)        
+H_FILES?=$(shell find $(SRC_PATH) -name \*.h)  
+SRC_FILES=$(CPP_FILES) $(CC_FILES) $(C_FILES)
+
+OBJ_FILES?=$(patsubst %.cpp,%.o,$(SRC_FILES))
+OBJ_FILES_HERE=$(patsubst ./%,%,$(OBJ_FILES))
+OBJ_FILES_BUILD=$(addprefix $(BUILD_PATH)/,$(OBJ_FILES_HERE))
+
+OBJ_FILES_DIRS=
+
+# Compile things
+all: output_dirs $(OUTPUT)
+
+$(OUTPUT):$(SRC_FILES) $(H_FILES)
+	$(CXX) -o $@ $^ $(COMPILEFLAGS) $(LINKFLAGS)
+
+$(BUILD_PATH)/%.o: %.cpp %.h
+	$(CXX) -o $@  -c $^ $(COMPILEFLAGS)
+
+$(BUILD_PATH)/%.o: %.cc %.h
+	$(CXX) -c $^ -o $@  $(COMPILEFLAGS)
+
+$(BUILD_PATH)/%.o: %.c %.h
+	$(CXX) -c $^ -o $@  $(COMPILEFLAGS)
+
+$(BUILD_PATH)/%.o: %.cpp
+	$(CXX) -c $^ -o $@  $(COMPILEFLAGS)
+
+$(BUILD_PATH)/%.o: %.cc
+	$(CXX) -c $^ -o $@  $(COMPILEFLAGS)
+
+$(BUILD_PATH)/%.o: %.c
+	$(CXX) -c $^ -o $@  $(COMPILEFLAGS)
+
+$(BUILD_PATH)/%.o: %.c
+	$(CXX) -c $^ -o $@  $(COMPILEFLAGS)
+
+object_dirs:
+	@for dir in $(OBJ_FILES_BUILD);do \
+	mkdir -p $$(dirname $$dir); done
+
+output_dirs:
+	@for dir in $(OUTPUT);do \
+	mkdir -p $$(dirname $$dir); done
+
+clean :
+	rm $(OUTPUT) $(shell find $(BUILD_PATH) -name \*.o)
+
+DEPEND_CONFIG_EXIST=$(shell if [ -f ./depend.mk ];then echo exist;fi;)
+ifeq ($(DEPEND_CONFIG_EXIST),exist)
+include ./depend.mk
+endif

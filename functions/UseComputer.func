@@ -1,0 +1,50 @@
+#!/bin/sh
+##BEGIN_INTRODUCTION##	This function does not got an introduction yet.
+##END_INTRODUCTION##
+
+#####################  Build in Things   ######################
+. $Function_Top/Include/Enviroment_Config.inc
+##################### other functions below ######################
+. $Function_Data_Path/Computer.info
+
+set_office()
+{
+    if [ "like" = $ComputerName ];then
+        echo You are now using computer like,switching to office...
+        sshfs zhaoyong@10.129.3.38:/data/zhaoyong /data/like
+        sudo mount --bind /data/like /data/zhaoyong
+    else
+	cd
+        sudo umount /data/zhaoyong
+    fi  
+}
+
+set_computer()
+{
+case $Computer2Use in
+    office) set_office;exit 1;;
+    like)   set_like;exit 1;;
+esac
+
+}
+
+
+######################  main below  ##############################
+if [ -n "$1" ];then
+	while [ -n "$1" ]; do
+	case $1 in
+##BEGIN_HELP##
+		-h)     shift 1;echo_help;exit 1;;                   #Show usages 
+		-i)     shift 1;echo_introduction;exit 1;;           #Show introduction 
+		-edit)  shift 1;gedit $Here_Path/$File_Name;exit 1;; #Edit this function 
+		-*)     echo "error: no such option $1. -h for help";exit 1;; 
+		*)      $*;exit 1;;                                  #Call function here
+##END_HELP##
+	esac
+	done
+else
+	set_computer
+fi
+#echo ---------------------End Of $Function_Name-----------------------
+
+

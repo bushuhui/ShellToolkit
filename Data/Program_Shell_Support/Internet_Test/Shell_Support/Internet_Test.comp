@@ -1,0 +1,29 @@
+Act=test_client
+Act=test_server
+Act=test_client
+Act=test_messagepassing nodeType=0
+Act=test_messagepassing nodeType=1
+Act=test_messagepassing nodeType=0
+Act=test_messagepassing nodeType=1
+Act=test_messagepassing nodeType=0
+Act=test_messagepassing nodeType=0
+Act=test_messagepassing nodeType=0
+Act=test_messagepassing nodeType=1
+Act=test_messagepassing nodeType=1
+Act=test_messagepassing
+Act=test_messagepassing node.name=node2 node.port=30002
+node.name=zhaoyong
+node.name=zhaoyong node.port=30003
+nodeType=1
+nodeType=1
+nodeType=1
+nodeType=1
+nodeType=1
+nodeType=1
+nodeType=1
+nodeType=1
+nodeType=1
+nodeType=1
+nodeType=1
+nodeType=1
+nodeType=1

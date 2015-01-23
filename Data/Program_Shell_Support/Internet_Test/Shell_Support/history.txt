@@ -1,0 +1,58 @@
+------------------2014年 11月 29日 星期六 17:09:41 CST------------------
+Internet_Test Act=test_client
+------------------2014年 11月 29日 星期六 17:10:25 CST------------------
+Internet_Test Act=test_server
+------------------2014年 11月 29日 星期六 17:10:35 CST------------------
+Internet_Test Act=test_client
+------------------2014年 11月 29日 星期六 17:11:50 CST------------------
+Internet_Test Act=test_messagepassing nodeType=0
+------------------2014年 11月 29日 星期六 17:12:02 CST------------------
+Internet_Test Act=test_messagepassing nodeType=1
+------------------2014年 11月 29日 星期六 17:12:43 CST------------------
+Internet_Test Act=test_messagepassing nodeType=0
+------------------2014年 11月 29日 星期六 17:15:22 CST------------------
+Internet_Test Act=test_messagepassing nodeType=1
+------------------2014年 11月 29日 星期六 17:15:35 CST------------------
+Internet_Test Act=test_messagepassing nodeType=0
+------------------2014年 11月 29日 星期六 17:17:02 CST------------------
+Internet_Test Act=test_messagepassing nodeType=0
+------------------2014年 11月 29日 星期六 17:39:04 CST------------------
+Internet_Test Act=test_messagepassing nodeType=0
+------------------2014年 11月 29日 星期六 17:39:19 CST------------------
+Internet_Test Act=test_messagepassing nodeType=1
+------------------2014年 11月 29日 星期六 17:40:32 CST------------------
+Internet_Test Act=test_messagepassing nodeType=1
+------------------2014年 11月 29日 星期六 17:40:44 CST------------------
+Internet_Test Act=test_messagepassing
+------------------2014年 11月 29日 星期六 17:44:02 CST------------------
+Internet_Test Act=test_messagepassing node.name=node2 node.port=30002
+------------------2014年 11月 29日 星期六 17:46:37 CST------------------
+Internet_Test node.name=zhaoyong
+------------------2014年 11月 29日 星期六 17:46:52 CST------------------
+Internet_Test node.name=zhaoyong node.port=30003
+------------------2014年 11月 29日 星期六 18:00:47 CST------------------
+Internet_Test nodeType=1
+------------------2014年 11月 29日 星期六 18:03:07 CST------------------
+Internet_Test nodeType=1
+------------------2014年 11月 29日 星期六 18:06:28 CST------------------
+Internet_Test nodeType=1
+------------------2014年 11月 29日 星期六 18:06:35 CST------------------
+Internet_Test nodeType=1
+------------------2014年 11月 29日 星期六 18:36:06 CST------------------
+Internet_Test nodeType=1
+------------------2014年 11月 29日 星期六 18:36:39 CST------------------
+Internet_Test nodeType=1
+------------------2014年 11月 29日 星期六 18:37:08 CST------------------
+Internet_Test nodeType=1
+------------------2014年 11月 29日 星期六 18:37:14 CST------------------
+Internet_Test nodeType=1
+------------------2014年 11月 29日 星期六 18:38:55 CST------------------
+Internet_Test nodeType=1
+------------------2014年 11月 29日 星期六 18:55:10 CST------------------
+Internet_Test nodeType=1
+------------------2014年 11月 29日 星期六 19:00:52 CST------------------
+Internet_Test nodeType=1
+------------------2014年 11月 29日 星期六 19:01:42 CST------------------
+Internet_Test nodeType=1
+------------------2014年 11月 29日 星期六 19:02:14 CST------------------
+Internet_Test nodeType=1

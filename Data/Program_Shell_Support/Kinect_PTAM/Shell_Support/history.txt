@@ -1,0 +1,51 @@
+Kinect_PTAM Kinect
+------------------2014年 10月 13日 星期一 10:39:23 CST------------------
+Kinect_PTAM Kinect
+------------------2014年 10月 13日 星期一 10:41:52 CST------------------
+Kinect_PTAM Kinect
+------------------2014年 10月 13日 星期一 11:57:15 CST------------------
+= Kinect notDrawCurrentCloud=1 UsePoseFilter=0 UseIMUPose=0 VideoSource.DelayTime=50000 UseIMUPoseError=0
+------------------2014年 10月 13日 星期一 11:59:18 CST------------------
+ Kinect notDrawCurrentCloud=1 UsePoseFilter=0 UseIMUPose=0 VideoSource.DelayTime=50000 UseIMUPoseError=0
+------------------2014年 10月 13日 星期一 12:00:08 CST------------------
+Kinect_PTAM Kinect notDrawCurrentCloud=1 UsePoseFilter=0 UseIMUPose=0 VideoSource.DelayTime=50000 UseIMUPoseError=0
+------------------2014年 10月 13日 星期一 16:54:02 CST------------------
+Kinect_PTAM Kinect
+------------------2014年 10月 13日 星期一 16:54:30 CST------------------
+Kinect_PTAM Data/Corridor2/Kinect06120934.avi
+------------------2014年 10月 13日 星期一 16:54:55 CST------------------
+Kinect_PTAM Data/Corridor2/Kinect06120934.avi notDrawCurrentCloud=1
+------------------2014年 10月 16日 星期四 15:47:54 CST------------------
+Kinect_PTAM -edti
+------------------2014年 10月 23日 星期四 15:15:12 CST------------------
+Kinect_PTAM Kinect MapMaker.DistShehodEmergency=0.4 VideoSource.DelayTime=60000 PoseError2BGood=70
+------------------2014年 10月 23日 星期四 15:21:16 CST------------------
+Kinect_PTAM Kinect MapMaker.DistShehodEmergency=0.4 VideoSource.DelayTime=60000 PoseError2BGood=70
+------------------2014年 10月 23日 星期四 15:22:13 CST------------------
+Kinect_PTAM Kinect MapMaker.DistShehodEmergency=0.4 VideoSource.DelayTime=60000 PoseError2BGood=70
+------------------2014年 10月 23日 星期四 15:23:34 CST------------------
+Kinect_PTAM Kinect MapMaker.DistShehodEmergency=0.4 VideoSource.DelayTime=60000 PoseError2BGood=70
+------------------2014年 10月 23日 星期四 15:24:13 CST------------------
+Kinect_PTAM Kinect MapMaker.DistShehodEmergency=0.4 VideoSource.DelayTime=60000 PoseError2BGood=70
+------------------2014年 11月 21日 星期五 11:01:15 CST------------------
+Kinect_PTAM Data/A404_All/Kinect06092250.avi
+------------------2015年 01月 07日 星期三 09:10:50 CST------------------
+Kinect_PTAM undis_video.avi
+------------------2015年 01月 07日 星期三 09:12:24 CST------------------
+Kinect_PTAM undis_video.avi
+------------------2015年 01月 07日 星期三 09:13:24 CST------------------
+Kinect_PTAM undis_video.avi
+------------------2015年 01月 07日 星期三 09:14:27 CST------------------
+Kinect_PTAM undis_video.avi
+------------------2015年 01月 07日 星期三 09:15:35 CST------------------
+Kinect_PTAM undis_video.avi
+------------------2015年 01月 07日 星期三 09:16:29 CST------------------
+Kinect_PTAM undis_video.avi
+------------------2015年 01月 07日 星期三 09:17:26 CST------------------
+Kinect_PTAM undis_video.avi
+------------------2015年 01月 07日 星期三 09:17:48 CST------------------
+Kinect_PTAM undis_video.avi
+------------------2015年 01月 07日 星期三 09:18:34 CST------------------
+Kinect_PTAM undis_video.avi
+------------------2015年 01月 07日 星期三 09:51:43 CST------------------
+Kinect_PTAM undis_video.avi

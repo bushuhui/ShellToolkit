@@ -1,0 +1,22 @@
+#some change by zhaoyong
+alias CV="nautilus /media/Software"
+alias off_touch="sudo rmmod psmouse"
+alias on_touch="sudo modprobe psmouse"
+alias firefox="nohup firefox&"
+alias ins='sudo apt-get install'
+alias search='sudo apt-cache search'
+alias office='libreoffice'
+alias word='libreoffice --writer'
+alias excel='libreoffice --calc'
+alias ppt='libreoffice --impress'
+alias make="make -j 4"
+alias add_aliase="function add_alias"
+. /media/Software/Linux/config_shell/functions/function_name_complete
+alias function="bash /media/Software/Linux/config_shell/function"
+alias add_complete="function add_complete"
+
+{
+export PS1="\[\033[32m\]\W>\[\033[0m\] "
+export PS2='> '
+export PS4='+ '
+}
