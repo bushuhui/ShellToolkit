@@ -1,0 +1,18 @@
+#!/bin/bash
+sudo apt-get install libsuitesparse-dev
+sudo apt-get install libwxgtk2.8-0 libwxgtk2.8-dev python-wxgtk2.8
+sudo apt-get install libblas-dev libatlas-dev
+echo -e "\e[40;33m Dependeces installed success! \e[0m"
+#get the OpenCV_DIR
+Get_OpencvDir()
+{
+CV_Sub=$1
+export OpenCV_DIR=${CV_Sub##*-I%/*%/*}
+echo OpenCV_DIR=$OpenCV_DIR
+export LIBRARY_PATH=$LIBRARY_PATH:$OpenCV_DIR/lib
+}
+Get_OpencvDir $(pkg-config --cflags opencv)
+mkdir build
+echo  -e "\e[40;33m You can find the output files in the folder build here. \e[0m"
+cd build
+cmake ..

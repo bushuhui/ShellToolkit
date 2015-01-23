@@ -1,0 +1,50 @@
+#!/bin/sh
+
+##BEGIN_INTRODUCTION##	This function does not got an introduction yet.
+##END_INTRODUCTION##
+ROS_Install()
+{
+#sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu raring main" > /etc/apt/sources.list.d/ros-latest.list'
+sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu precise main" > /etc/apt/sources.list.d/ros-latest.list'
+#wget http://packages.ros.org/ros.key -O - | sudo apt-key add -
+#sudo apt-get update
+sudo aptitude install ros-hydro-desktop-full -y
+sudo apt-get install aptitude rosdep -y
+#Initialize rosdep
+sudo aptitude install ros-fuerte-perception-pcl ros-fuerte-vision-opencv ros-fuerte-octomap-mapping python-rosdep -y
+sudo rosdep init
+rosdep update
+sudo apt-get install libglew1.5-dev libdevil-dev libsuitesparse-dev -y
+gedit a
+#Environment setup
+echo "source /opt/ros/hydro/setup.bash" >> ~/.bashrc
+source ~/.bashrc
+gedit ~/.bashrc
+sudo apt-get install python-rosinstall
+export |grep ROS
+}
+RGBD_SLAM()
+{
+svn co http://alufr-ros-pkg.googlecode.com/svn/trunk/rgbdslam_freiburg
+rosdep update
+rosdep install rgbdslam_freiburg
+rosmake rgbdslam_freiburg
+}
+######################  main below  #######################
+if [ -n "$1" ];then
+	while [ -n "$1" ]; do
+	case $1 in
+##BEGIN_HELP##
+		( -h | -help | --h* ) shift 1;. $Function_Path/echo_help;exit 1;; #[-h]Show usages 
+		ROS_Install)shift 1;ROS_Install;exit 1;;
+		RGBD_SLAM)shift 1;RGBD_SLAM;exit 1;;
+		( -i | intro* ) shift 1;. $Function_Path/echo_introduction;exit 1;; #[-i]Show introduction 
+		-edit|edit) shift 1;gedit $Function_Path/$Function_Name.func;exit 1;; #[-edit]edit this function 
+		-*) echo "error: no such option $1. -h for help";exit 1;; # 
+		*)  $*;exit 1;; #call function here
+##END_HELP##
+	esac
+	done
+#else
+#	echo_help
+fi

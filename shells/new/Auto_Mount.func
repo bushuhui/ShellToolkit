@@ -1,0 +1,65 @@
+#Auto_Mount
+#!/bin/sh
+Call_Path=$(pwd)
+Here_Path=$(dirname $(readlink -f $0))
+introduction()
+{
+	echo "$Function_Name  This function auto mount your partions with a Lable to /media/$Lable."
+}
+echo_help()
+{
+cat <<HELP
+	--------------------- function  -----------------
+	usage:  function [-f function_name function_options]
+	options:
+		-h) shift 1;echo_help $*;exit 1;; #[-h]Show usages
+		-i) shift 1;introduction $*;exit 1;; #[-h]Show usages
+		-*) echo "error: no such option $1. -h for help";exit 1;;
+		*)  $*;exit 1;; #call function here
+	---------------------By ZhaoYong-----------------
+HELP
+}
+Mount()
+{
+FATAB=/etc/fstab
+sudo echo "############ "$(date)"############" >>$FATAB
+echo "Attempting auto add every partion"
+auto_mount $(sudo blkid)
+echo "Mounted success!"
+sudo gedit $FATAB
+}
+auto_mount()
+{
+while [ -n "$1" ];do
+	Place=$1;shift 1;
+	if [ $(expr substr $1 1 5) = "LABEL" ];then
+		Lable=$(expr substr $1 8 30)
+		Lable=${Lable%\"*}
+		shift 1;
+		UUID=$1
+		UUID=${UUID#*\"}
+		UUID=${UUID%\"}
+		TYPE=$(expr substr $2 7 30)
+		TYPE=${TYPE%\"*}
+		shift 2;
+		sudo echo "#mounting $Place ">>$FATAB
+		sudo echo UUID=$UUID" /media/"$Lable" "$TYPE" user,exec 0 1">>$FATAB
+	fi
+done
+}
+
+######################  options below  #######################
+while [ -n "$1" ]; do
+	case $1 in
+		-h) shift 1;echo_help $*;exit 1;; #[-h]Show usages
+		-i) shift 1;introduction $*;exit 1;; #[-h]Show usages
+		-a) shift 1;Mount $*;exit 1;; #[-h]Show usages
+		intro*) shift 1;introduction $*;exit 1;; #[-h]Show usages
+		-*) echo "error: no such option $1. -h for help";exit 1;;
+		*)  $*;exit 1;; #call function here
+	esac
+done
+#####################do something here######################
+
+echo ----------------------------------------------------
+exit 0

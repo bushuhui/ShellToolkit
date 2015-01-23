@@ -1,0 +1,75 @@
+#!/bin/sh
+if [ -z $Here_Path ];then
+Call_Path=$(pwd)
+Here_Path=$(dirname $(readlink -f $0))
+fi
+introduction()
+{
+	echo "$Function_Name  This function install usual apps in a new system."
+}
+
+echo_help()
+{
+cat <<HELP
+	--------------------- function  -----------------
+	usage:  function [-f function_name function_options]
+	options:
+		-h) shift 1;echo_help $*;exit 1;; #[-h]Show usages
+		-i) shift 1;introduction $*;exit 1;; #[-h]Show usages
+		intro*) shift 1;introduction $*;exit 1;; #[-h]Show usages
+		Mou*) shift 1;Mount;break;; #[-h]auto mount all the partions
+		Ali*) shift 1;bash $Here_Path/add_alias.func -default;break;; #[-h]aliase default lists
+		App*) shift 1;bash $Here_Path/App_Lists.sh;break;; #[-h]Install apps in App_Lists.sh
+		All*) shift 1;all;break;; #[-h]Install apps in App_Lists.sh
+		-*) echo "error: no such option $1. -h for help";exit 1;;
+		*)  $*;exit 1;; #call function here
+	---------------------By ZhaoYong-----------------
+HELP
+}
+all()
+{
+echo "$0 runing,do all things..."
+
+echo "start mounting..."
+bash $Here_Path/Auto_Mount.func -a
+
+echo "start add_alias..."
+bash $Here_Path/Add_Aliase.func -default
+
+echo "start config sourse..."
+bash $Here_Path/source_config;
+
+echo "start install apps..."
+bash $Here_Path/App_Lists.sh;
+
+echo "All completed!"
+}
+######################  options below  #######################
+while [ -n "$1" ]; do
+	case $1 in
+		-h) shift 1;echo_help $*;exit 1;; #[-h]Show usages
+		-i) shift 1;introduction $*;exit 1;; #[-h]Show usages
+		intro*) shift 1;introduction $*;exit 1;; #[-h]Show usages
+		Mou*) shift 1;Mount;break;; #[-h]auto mount all the partions
+		Ali*) shift 1;bash $Here_Path/add_alias.func -default;break;; #[-h]aliase default lists
+		App*) shift 1;bash $Here_Path/App_Lists.sh;break;; #[-h]Install apps in App_Lists.sh
+		All*) shift 1;all;break;; #[-h]Install apps in App_Lists.sh
+		-*) echo "error: no such option $1. -h for help";exit 1;;
+		*)  $*;exit 1;; #call function here
+	esac
+done
+#####################do something here######################
+echo_help
+echo ----------------------------------------------------
+exit 0
+;break;; #[-h]aliase default lists
+		App*) shift 1;bash $Here_Path/App_Lists.sh;break;; #[-h]Install apps in App_Lists.sh
+		All*) shift 1;all;break;; #[-h]Install apps in App_Lists.sh
+		-*) echo "error: no such option $1. -h for help";exit 1;;
+		*)  $*;exit 1;; #call function here
+	esac
+done
+#####################do something here######################
+
+echo ----------------------------------------------------
+exit 0

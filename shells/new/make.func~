@@ -1,0 +1,49 @@
+#make
+#!/bin/sh
+Call_Path=$(pwd)
+Here_Path=$(dirname $(readlink -f $0))
+shift 2
+introduction()
+{
+Introduction
+}
+Introduction()
+{
+echo "$Function_Name  For user to get a Makefile and run make when the Call_Path does't has one."
+}
+echo_help()
+{
+cat <<HELP
+--------------------- function  -----------------
+usage:  function [-f function_name function_options]
+options:
+	-h) echo_help;shift 1;; #[-h]Show usages
+	--) shift;break;; #[--] End of options
+	-*) echo "error: no such option $1. -h for help";exit 1;;
+	*)  $*;exit 1;; #call function here
+---------------------By ZhaoYong-----------------
+HELP
+exit 0
+}
+
+######################  options below  #######################
+while [ -n "$1" ]; do
+	case $1 in
+		-h) shift 1;echo_help $*;exit 1;; #[-h]Show usages
+		-i) shift 1;introduction $*;exit 1;; #[-h]Show usages
+		intro*) shift 1;introduction $*;exit 1;; #[-h]Show usages
+		-*) echo "error: no such option $1. -h for help";exit 1;;
+		*)  $*;exit 1;; #call function here
+	esac
+done
+#####################do something here######################
+if [ -f $Call_Path/Makefile ] ;then
+	echo "Makefile existed,run."
+	make -C $Call_Path
+else
+	echo "Copy default Makefile here..."
+	cp $Here_Path/Makefile $Call_Path/
+	echo "making..."
+fi
+exit 0
+

@@ -52,6 +52,7 @@ Save2History()
 }
 
 ######################  main below  #######################
+Save2History $*;
 if [ -n "$1" ];then
 	while [ -n "$1" ]; do
 	case $1 in
@@ -61,7 +62,7 @@ if [ -n "$1" ];then
 		-edit|edit) shift 1;gedit $Here_Path/$File_Name;exit 1;; #[-edit]edit this function
 		-history) shift 1;more $Here_Path/history.txt;exit 1;; #[-edit]edit this function
 		# -*) echo "error: no such option $1. -h for help";exit 1;; # 
-		*)  Save2History $*;"$Program_Path/$Program_Name" $*;exit 1;; #call function here
+		*) "$Program_Path/$Program_Name" $*;exit 1;; #call function here
 ##END_HELP##
 	esac
 	done

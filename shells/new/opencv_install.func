@@ -1,0 +1,83 @@
+#!/bin/sh
+Call_Path=$(pwd)
+Here_Path=$(dirname $(readlink -f $0))
+ins='sudo apt-get install -y'
+Build_Path=$Call_Path/build
+install_to=/opt/opencv
+introduction()
+{
+	echo "$Function_Name  This function install opencv from $Call_Path to $install_to(Build_Path= $Call_Path/build)."
+}
+echo_help()
+{
+introduction
+cat <<HELP
+	--------------------- function  -----------------
+	usage:  function [-f function_name function_options]
+	options:
+		-V) export $2=$3;shift 3;; #Set value $2 as $3
+		-h) shift 1;echo_help $*;exit 1;; #[-h]Show usages
+		-i) shift 1;introduction $*;exit 1;; #[-h]Show usages
+		-depend*) shift 1;dependence_install $*;exit 1;; #[-h]Show usages
+		-conf*) shift 1;config $*;exit 1;; #[-h]Show usages
+		-ins*) shift 1;install_ $*;exit 1;; #[-h]Show usages
+		-a*) shift 1;dependence_install&&config&&install_;exit 1;; #[-a*]Do all
+		intro*) shift 1;introduction $*;exit 1;; #[-h]Show usages
+		-*) echo "error: no such option $1. -h for help";exit 1;;
+		*)  $*;exit 1;; #call function here
+	---------------------By ZhaoYong-----------------
+HELP
+}
+dependence_install()
+{
+
+$ins g++
+#ins gnome-core-devel
+#ins libgtk2.0*
+$ins pkg-config
+$ins cmake
+$ins ffmpeg
+#ins build-essential
+$ins libgtk2.0-dev
+$ins libavcodec-dev
+$ins libavformat-dev libjpeg62-dev libtiff4-dev cmake libswscale-dev #libjasper-dev
+echo "Dependent libs installed"
+
+}
+config()
+{
+mkdir $Build_Path
+cd $Build_Path
+cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=$install_to ..
+}
+install_()
+{
+cd $Build_Path
+make
+sudo make install
+sudo cp /opt/opencv/lib/pkgconfig/opencv.pc /usr/lib/pkgconfig/
+#echo "$install_to/lib" >> /etc/ld.so.conf
+#sudo touch $Here_Path/TMP.txt
+sudo echo "$install_to/lib" >> /etc/ld.so.conf.d/opencv.conf
+sudo ldconfig
+
+}
+######################  options below  #######################
+while [ -n "$1" ]; do
+	case $1 in
+		-V) export $2=$3;shift 3;; #Set value $2 as $3
+		-h) shift 1;echo_help $*;exit 1;; #[-h]Show usages
+		-i) shift 1;introduction $*;exit 1;; #[-h]Show usages
+		-depend*) shift 1;dependence_install $*;exit 1;; #[-h]Show usages
+		-conf*) shift 1;config $*;exit 1;; #[-h]Show usages
+		-ins*) shift 1;install_ $*;exit 1;; #[-h]Show usages
+		-a*) shift 1;dependence_install&&config&&install_;exit 1;; #[-a*]Do all
+		intro*) shift 1;introduction $*;exit 1;; #[-h]Show usages
+		-*) echo "error: no such option $1. -h for help";exit 1;;
+		*)  $*;exit 1;; #call function here
+	esac
+done
+#####################do something here######################
+
+echo ----------------------------------------------------
+exit 0

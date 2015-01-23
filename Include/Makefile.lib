@@ -1,5 +1,5 @@
 #Makefile genarated by make.func
-#This is the simple version,no *.o files will be genarated and it's suitable for small projects
+#This is the lib version,no *.o files will be genarated and it's suitable for small projects
 CC=gcc  -fPIC
 CXX=g++ -fPIC
 MOC=moc-qt4
